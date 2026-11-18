@@ -1,0 +1,7 @@
+issue,rows_affected,action,note
+Duplicate rows,1,Removed duplicate patient record,302 unique patients
+Invalid 'ca' = 4,4,Set to missing ('Unknown'),Was '?' in UCI source
+Invalid 'thal' = 0,2,Set to missing ('Unknown'),Was '?' in UCI source
+Reversed outcome label,302,heart_disease = 1 - target,Confirmed against UCI counts
+"Mis-documented codes (cp, restecg, slope, thal)",302,Re-labelled using UCI mapping,Confirmed against UCI counts
+Outliers (IQR rule),20,Kept and flagged,All medically possible

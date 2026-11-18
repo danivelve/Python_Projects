@@ -1,0 +1,246 @@
+1
+00:00:00,500 --> 00:00:01,828
+Welcome to part two.
+
+2
+00:00:01,828 --> 00:00:11,992
+In this video we walk through the Power BI file: how the
+data is loaded, how the model and measures are built, and
+what each page of the dashboard shows.
+
+3
+00:00:13,392 --> 00:00:15,291
+Here is the process flow.
+
+4
+00:00:15,291 --> 00:00:18,709
+We load the four CSV files from the notebook.
+
+5
+00:00:18,709 --> 00:00:22,431
+Power Query sets the folder and the column types.
+
+6
+00:00:22,431 --> 00:00:26,228
+The data model holds four tables with sort orders.
+
+7
+00:00:26,228 --> 00:00:29,570
+Twenty two DAX measures do the calculations.
+
+8
+00:00:29,570 --> 00:00:35,191
+Four report pages show the results, with synced slicers for
+interactivity.
+
+9
+00:00:35,191 --> 00:00:40,507
+Finally the file is saved as a P B I X file and as a Power
+BI project.
+
+10
+00:00:41,907 --> 00:00:46,629
+Step one loads the four CSV files written by the final
+notebook.
+
+11
+00:00:46,629 --> 00:00:50,761
+The main table has one row for each of the 302 patients.
+
+12
+00:00:50,761 --> 00:00:58,729
+The other three are small summary tables: the factor
+ranking, the data quality log, and the data dictionary.
+
+13
+00:01:00,129 --> 00:01:01,839
+Step two is Power Query.
+
+14
+00:01:01,839 --> 00:01:10,389
+A single parameter called DataFolder holds the folder path,
+so if the project moves you only edit one value and refresh.
+
+15
+00:01:10,389 --> 00:01:17,230
+Each query reads its CSV file, promotes the headers, and
+gives every column the right data type.
+
+16
+00:01:18,630 --> 00:01:20,604
+Step three is the data model.
+
+17
+00:01:20,604 --> 00:01:27,003
+There are four tables, and no relationships are needed
+because the summary tables stand alone.
+
+18
+00:01:27,003 --> 00:01:30,747
+Ten banded columns are sorted by a hidden order column.
+
+19
+00:01:30,747 --> 00:01:37,486
+Without this, Power BI would sort alphabetically, and
+seventy plus would appear before under forty.
+
+20
+00:01:38,886 --> 00:01:44,033
+Step four builds twenty two DAX measures, grouped into five
+folders.
+
+21
+00:01:44,033 --> 00:01:49,028
+The core ones are total patients, disease cases, and disease
+rate.
+
+22
+00:01:49,028 --> 00:01:56,370
+Overall disease rate uses REMOVEFILTERS, so it stays at 46
+percent and works as a reference line.
+
+23
+00:01:56,370 --> 00:02:02,047
+Others cover the patient profile, the risk tiers, labels,
+and data quality.
+
+24
+00:02:03,447 --> 00:02:05,919
+Step five is the report.
+
+25
+00:02:05,919 --> 00:02:08,493
+Page one is the overview.
+
+26
+00:02:08,493 --> 00:02:16,527
+Number one: six KPI cards, with 302 patients, 138 cases and
+a 46 percent rate.
+
+27
+00:02:16,527 --> 00:02:19,101
+Two: the diagnosis donut.
+
+28
+00:02:19,101 --> 00:02:26,311
+Three: the rate by age group, with a dashed line for the
+overall rate.
+
+29
+00:02:26,311 --> 00:02:28,577
+Four: the rate by sex.
+
+30
+00:02:28,577 --> 00:02:32,284
+Five: a heatmap of sex by age group.
+
+31
+00:02:32,284 --> 00:02:34,447
+And six: the slicers.
+
+32
+00:02:35,847 --> 00:02:38,860
+Page two covers symptoms and tests.
+
+33
+00:02:38,860 --> 00:02:43,938
+One: chest-pain type, where no chest pain shows 73 percent.
+
+34
+00:02:43,938 --> 00:02:45,918
+Two: the imaging tests.
+
+35
+00:02:45,918 --> 00:02:49,791
+Three: the four stress test measures in pink.
+
+36
+00:02:49,791 --> 00:02:55,386
+Four: the routine checks in grey, which barely separate
+patients.
+
+37
+00:02:55,386 --> 00:02:58,743
+The colours tell the story at a glance.
+
+38
+00:03:00,143 --> 00:03:03,749
+Page three shows risk drivers and tiers.
+
+39
+00:03:03,749 --> 00:03:05,913
+One: the factor ranking.
+
+40
+00:03:05,913 --> 00:03:14,386
+Two: the high-risk KPIs: 92 patients, 30 percent of
+patients, holding 62 percent of all cases.
+
+41
+00:03:14,386 --> 00:03:20,877
+Three and four: the disease rate by tier and by number of
+warning signs.
+
+42
+00:03:20,877 --> 00:03:22,770
+Five: the tier table.
+
+43
+00:03:24,170 --> 00:03:28,501
+Page four is about data quality, which is business problem
+one.
+
+44
+00:03:28,501 --> 00:03:39,226
+It shows the counts, the issue log with every fix, the story
+of the reversed label, and the data dictionary, so anyone
+can trust and understand the numbers.
+
+45
+00:03:40,626 --> 00:03:42,685
+Step six is interactivity.
+
+46
+00:03:42,685 --> 00:03:50,998
+Four slicers, for sex, age group, chest-pain type and risk
+tier, are synced across the first three pages.
+
+47
+00:03:50,998 --> 00:03:54,877
+Clicking any bar cross-filters the other visuals.
+
+48
+00:03:54,877 --> 00:04:02,082
+For example, select male and sixty to sixty nine, and the
+disease rate jumps to 74 percent.
+
+49
+00:04:03,482 --> 00:04:05,608
+Step seven saves and shares.
+
+50
+00:04:05,608 --> 00:04:10,010
+The P B I X file holds the dashboard with its data inside.
+
+51
+00:04:10,010 --> 00:04:17,829
+The same dashboard is also saved as a Power BI project, as
+text files, so every change shows up in Git.
+
+52
+00:04:17,829 --> 00:04:23,902
+To refresh on another computer, edit the DataFolder
+parameter and click refresh.
+
+53
+00:04:23,902 --> 00:04:26,483
+Every number matches the notebook.
+
+54
+00:04:27,883 --> 00:04:35,724
+That completes the walkthrough: from raw data, through the
+notebook, to an interactive Power BI dashboard.
+
+55
+00:04:35,724 --> 00:04:37,426
+Thank you for watching.

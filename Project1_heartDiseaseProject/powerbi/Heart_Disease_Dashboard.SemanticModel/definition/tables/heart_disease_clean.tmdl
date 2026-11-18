@@ -1,0 +1,499 @@
+table heart_disease_clean
+	lineageTag: 94f363d4-2917-4a74-a5c1-f2847148195d
+
+	measure 'Total Patients' = COUNTROWS ( heart_disease_clean )
+		formatString: 0
+		displayFolder: 1 Core KPIs
+		lineageTag: 82e67d3e-f1fd-47f3-bf32-10d3dd9b0b53
+
+	measure 'Disease Cases' = SUM ( heart_disease_clean[heart_disease] )
+		formatString: 0
+		displayFolder: 1 Core KPIs
+		lineageTag: 49c2723b-0909-4a21-8520-817099ac1895
+
+	measure 'No Disease Cases' = [Total Patients] - [Disease Cases]
+		formatString: 0
+		displayFolder: 1 Core KPIs
+		lineageTag: fa28956b-ff42-4547-8c33-1633f0d04b35
+
+	measure 'Disease Rate' = DIVIDE ( [Disease Cases], [Total Patients] )
+		formatString: 0%
+		displayFolder: 1 Core KPIs
+		lineageTag: 737b71da-7ff6-4568-98c9-4d5f64abe078
+
+	measure 'Overall Disease Rate' = CALCULATE ( [Disease Rate], REMOVEFILTERS ( heart_disease_clean ) )
+		formatString: 0%
+		displayFolder: 1 Core KPIs
+		lineageTag: a7067e8f-1a68-47a9-b3da-e817b7b6290a
+
+	measure 'Rate vs Overall (pts)' = ( [Disease Rate] - [Overall Disease Rate] ) * 100
+		formatString: 0.0
+		displayFolder: 1 Core KPIs
+		lineageTag: f4e8bb3a-ec1d-4667-93d1-6288e6ec843d
+
+	measure 'Median Age' = MEDIAN ( heart_disease_clean[age] )
+		formatString: 0.0
+		displayFolder: 2 Patient profile
+		lineageTag: aa30798b-5a81-4ce8-86ab-31db58212117
+
+	measure '% Male' = DIVIDE ( CALCULATE ( [Total Patients], heart_disease_clean[sex] = "Male" ), [Total Patients] )
+		formatString: 0%
+		displayFolder: 2 Patient profile
+		lineageTag: a3380a57-7600-4ce2-afc7-c84d847e60fa
+
+	measure '% Female' = 1 - [% Male]
+		formatString: 0%
+		displayFolder: 2 Patient profile
+		lineageTag: 9a425257-c718-4921-8926-da8f5f262ccd
+
+	measure 'Avg Max Heart Rate' = AVERAGE ( heart_disease_clean[max_heart_rate] )
+		formatString: 0
+		displayFolder: 2 Patient profile
+		lineageTag: 5a725439-2850-405f-8d2d-2985d285d409
+
+	measure 'Avg Cholesterol' = AVERAGE ( heart_disease_clean[cholesterol] )
+		formatString: 0
+		displayFolder: 2 Patient profile
+		lineageTag: e61ef638-386c-4957-8557-5b4107b7ced8
+
+	measure 'Avg Resting BP' = AVERAGE ( heart_disease_clean[resting_bp] )
+		formatString: 0
+		displayFolder: 2 Patient profile
+		lineageTag: a25b61f1-b53a-42e3-93a0-9132ccc5be5a
+
+	measure 'High Risk Patients' = CALCULATE ( [Total Patients], heart_disease_clean[risk_tier] = "High" )
+		formatString: 0
+		displayFolder: 3 Risk tiers
+		lineageTag: b49c7ba6-0262-4ebc-a300-9318e0071b8d
+
+	measure 'High Risk Share of Patients' = DIVIDE ( [High Risk Patients], [Total Patients] )
+		formatString: 0%
+		displayFolder: 3 Risk tiers
+		lineageTag: 869cb36d-9f7c-4be9-b2f2-5b301c8a5481
+
+	measure 'High Risk Share of Cases' = DIVIDE ( CALCULATE ( [Disease Cases], heart_disease_clean[risk_tier] = "High" ), [Disease Cases] )
+		formatString: 0%
+		displayFolder: 3 Risk tiers
+		lineageTag: 6476a8cc-f5ea-4ac6-afe3-a9af5cd60d87
+
+	measure 'Share of All Cases' = DIVIDE ( [Disease Cases], CALCULATE ( [Disease Cases], REMOVEFILTERS ( heart_disease_clean[risk_tier], heart_disease_clean[risk_tier_order] ) ) )
+		formatString: 0%
+		displayFolder: 3 Risk tiers
+		lineageTag: c6fc6a5b-644d-424b-82f4-1f4331931c45
+
+	measure 'Avg Warning Signs' = AVERAGE ( heart_disease_clean[warning_signs] )
+		formatString: 0.0
+		displayFolder: 3 Risk tiers
+		lineageTag: e27b8e17-6a8b-4d7f-aa37-78d9d2e9e2ee
+
+	measure 'Rate Label' = FORMAT ( [Disease Rate], "0%" ) & "  (n=" & [Total Patients] & ")"
+		displayFolder: 4 Labels
+		lineageTag: f774eb29-5d15-4efb-9390-47e68b87049a
+
+	measure 'Selection Title' =
+			VAR _sex = IF ( ISFILTERED ( heart_disease_clean[sex] ), SELECTEDVALUE ( heart_disease_clean[sex], "Mixed sexes" ), "All patients" )
+			VAR _age = IF ( ISFILTERED ( heart_disease_clean[age_group] ), " · Age " & SELECTEDVALUE ( heart_disease_clean[age_group], "several groups" ), "" )
+			RETURN _sex & _age & " · " & FORMAT ( [Total Patients], "0" ) & " patients"
+		displayFolder: 4 Labels
+		lineageTag: faf81952-0c7c-4c5d-92f1-7c3ca0ec2f40
+
+	measure 'Unknown Vessel Results' = CALCULATE ( [Total Patients], heart_disease_clean[vessels_label] = "Unknown" )
+		formatString: 0
+		displayFolder: 5 Data quality
+		lineageTag: f757257a-af69-4344-ad4b-0644edf72149
+
+	measure 'Unknown Thallium Results' = CALCULATE ( [Total Patients], heart_disease_clean[thallium_result] = "Unknown" )
+		formatString: 0
+		displayFolder: 5 Data quality
+		lineageTag: ecaeec66-f66e-4086-a5d7-ad5a3726dea0
+
+	measure 'Issues Found' = COUNTROWS ( data_quality_log )
+		formatString: 0
+		displayFolder: 5 Data quality
+		lineageTag: 326578a6-500c-4715-a732-abddc58002d1
+
+	column patient_id
+		dataType: string
+		lineageTag: 7c1cbfb8-4ab8-49a6-8a31-93071da4e10b
+		summarizeBy: none
+		sourceColumn: patient_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column age
+		dataType: int64
+		formatString: 0
+		lineageTag: 628842ad-76bc-41ae-9673-639bda749f57
+		summarizeBy: sum
+		sourceColumn: age
+
+		annotation SummarizationSetBy = Automatic
+
+	column age_group
+		dataType: string
+		lineageTag: e57e838f-4e39-4dbf-a3d4-bdb1e80c1d9f
+		summarizeBy: none
+		sourceColumn: age_group
+		sortByColumn: age_group_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column sex
+		dataType: string
+		lineageTag: 1b2430d4-2547-4551-b99f-7f502236d00a
+		summarizeBy: none
+		sourceColumn: sex
+
+		annotation SummarizationSetBy = Automatic
+
+	column chest_pain_type
+		dataType: string
+		lineageTag: b837633c-8b20-40bf-b278-bf423c6472c4
+		summarizeBy: none
+		sourceColumn: chest_pain_type
+		sortByColumn: chest_pain_type_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column resting_bp
+		dataType: int64
+		formatString: 0
+		lineageTag: 311c97dc-11c8-48df-ac69-d2fe021068a3
+		summarizeBy: sum
+		sourceColumn: resting_bp
+
+		annotation SummarizationSetBy = Automatic
+
+	column bp_category
+		dataType: string
+		lineageTag: ad2074dc-32c0-4b63-8c35-f458dec0b9b4
+		summarizeBy: none
+		sourceColumn: bp_category
+		sortByColumn: bp_category_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column cholesterol
+		dataType: int64
+		formatString: 0
+		lineageTag: 192fda09-66f4-4195-9a1f-2d334751a52b
+		summarizeBy: sum
+		sourceColumn: cholesterol
+
+		annotation SummarizationSetBy = Automatic
+
+	column cholesterol_category
+		dataType: string
+		lineageTag: be9376a9-42ba-43d0-a3ff-87832b703b64
+		summarizeBy: none
+		sourceColumn: cholesterol_category
+		sortByColumn: cholesterol_category_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column high_fasting_sugar
+		dataType: string
+		lineageTag: 9074fa30-b7b1-4d6b-ae90-ce72a17209ef
+		summarizeBy: none
+		sourceColumn: high_fasting_sugar
+
+		annotation SummarizationSetBy = Automatic
+
+	column resting_ecg
+		dataType: string
+		lineageTag: a6248646-1790-45ef-a289-bb066ab1d4e0
+		summarizeBy: none
+		sourceColumn: resting_ecg
+		sortByColumn: resting_ecg_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column max_heart_rate
+		dataType: int64
+		formatString: 0
+		lineageTag: 7fbdd524-85b9-47ad-94a8-3c5330ca039f
+		summarizeBy: sum
+		sourceColumn: max_heart_rate
+
+		annotation SummarizationSetBy = Automatic
+
+	column max_hr_band
+		dataType: string
+		lineageTag: 4995c0ac-bb20-47f9-b61a-1f2374660b1d
+		summarizeBy: none
+		sourceColumn: max_hr_band
+		sortByColumn: max_hr_band_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column exercise_angina
+		dataType: string
+		lineageTag: e5ee8171-d0a4-4438-8065-681149136729
+		summarizeBy: none
+		sourceColumn: exercise_angina
+
+		annotation SummarizationSetBy = Automatic
+
+	column st_depression
+		dataType: double
+		formatString: 0.00
+		lineageTag: c46de61c-9269-4fde-bbaf-2cd826e781e0
+		summarizeBy: sum
+		sourceColumn: st_depression
+
+		annotation SummarizationSetBy = Automatic
+
+	column st_depression_band
+		dataType: string
+		lineageTag: fdb6f749-c50e-4b1f-888a-426534a7079b
+		summarizeBy: none
+		sourceColumn: st_depression_band
+		sortByColumn: st_depression_band_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column st_slope
+		dataType: string
+		lineageTag: 06a80103-0268-4e13-a079-fed787ffbf37
+		summarizeBy: none
+		sourceColumn: st_slope
+		sortByColumn: st_slope_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column vessels_blocked
+		dataType: int64
+		formatString: 0
+		lineageTag: a745674f-1312-4b4e-8189-5f62f93b7b2b
+		summarizeBy: none
+		sourceColumn: vessels_blocked
+
+		annotation SummarizationSetBy = Automatic
+
+	column vessels_label
+		dataType: string
+		lineageTag: bb85a213-5e8e-4f94-82de-80a5f7c5c65a
+		summarizeBy: none
+		sourceColumn: vessels_label
+
+		annotation SummarizationSetBy = Automatic
+
+	column thallium_result
+		dataType: string
+		lineageTag: ac312f18-7afc-4fc5-9822-37582bb9d923
+		summarizeBy: none
+		sourceColumn: thallium_result
+		sortByColumn: thallium_result_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column sign_silent_chest_pain
+		dataType: int64
+		formatString: 0
+		lineageTag: f104c415-c531-417d-83a3-dacddcaeebc0
+		summarizeBy: none
+		sourceColumn: sign_silent_chest_pain
+
+		annotation SummarizationSetBy = Automatic
+
+	column sign_exercise_angina
+		dataType: int64
+		formatString: 0
+		lineageTag: 8a07ad60-79e5-44b0-adbc-b1c3e04da049
+		summarizeBy: none
+		sourceColumn: sign_exercise_angina
+
+		annotation SummarizationSetBy = Automatic
+
+	column sign_st_depression
+		dataType: int64
+		formatString: 0
+		lineageTag: cc809bf8-c4bf-409e-a63b-b7807c2b80ce
+		summarizeBy: none
+		sourceColumn: sign_st_depression
+
+		annotation SummarizationSetBy = Automatic
+
+	column sign_low_max_hr
+		dataType: int64
+		formatString: 0
+		lineageTag: 5f68210e-ffc5-4d78-9fe6-9ba39b87ce44
+		summarizeBy: none
+		sourceColumn: sign_low_max_hr
+
+		annotation SummarizationSetBy = Automatic
+
+	column sign_vessels_narrowed
+		dataType: int64
+		formatString: 0
+		lineageTag: 96506ac6-991e-4171-8d8f-731b1873b4d1
+		summarizeBy: none
+		sourceColumn: sign_vessels_narrowed
+
+		annotation SummarizationSetBy = Automatic
+
+	column sign_thallium_defect
+		dataType: int64
+		formatString: 0
+		lineageTag: 637cc0a6-f2bb-4b6c-9652-0d8876bf69e4
+		summarizeBy: none
+		sourceColumn: sign_thallium_defect
+
+		annotation SummarizationSetBy = Automatic
+
+	column warning_signs
+		dataType: int64
+		formatString: 0
+		lineageTag: 70a005e0-427c-437e-a62a-6a0c76683d87
+		summarizeBy: none
+		sourceColumn: warning_signs
+
+		annotation SummarizationSetBy = Automatic
+
+	column risk_tier
+		dataType: string
+		lineageTag: 8e6d7394-0728-440d-8848-0ca9586e9eaa
+		summarizeBy: none
+		sourceColumn: risk_tier
+		sortByColumn: risk_tier_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column heart_disease
+		dataType: int64
+		formatString: 0
+		lineageTag: e21722de-929a-4aa2-8181-11e5afaff397
+		summarizeBy: none
+		sourceColumn: heart_disease
+
+		annotation SummarizationSetBy = Automatic
+
+	column diagnosis
+		dataType: string
+		lineageTag: c4a0ab1b-82bf-49f7-a6d0-fc5a541aa3e5
+		summarizeBy: none
+		sourceColumn: diagnosis
+
+		annotation SummarizationSetBy = Automatic
+
+	column original_target
+		dataType: int64
+		formatString: 0
+		lineageTag: ee645550-8302-4a9c-bb0f-0129ad632cd9
+		summarizeBy: none
+		sourceColumn: original_target
+
+		annotation SummarizationSetBy = Automatic
+
+	column age_group_order
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 602e5e3d-8e5b-44ec-9acc-5246b3c1b9a1
+		summarizeBy: none
+		sourceColumn: age_group_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column bp_category_order
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 1875ce4b-09dd-4841-9a65-1d79a1701319
+		summarizeBy: none
+		sourceColumn: bp_category_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column cholesterol_category_order
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 73cf260f-fbd4-499d-b6b1-f3f7f9f97144
+		summarizeBy: none
+		sourceColumn: cholesterol_category_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column max_hr_band_order
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: e4b9f393-c8a8-4ddc-84d1-43755e7dc204
+		summarizeBy: none
+		sourceColumn: max_hr_band_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column st_depression_band_order
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: ac96e920-5fd5-4690-a6c2-5f9159bdc23d
+		summarizeBy: none
+		sourceColumn: st_depression_band_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column chest_pain_type_order
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: def23b20-2e42-4dcf-80e1-106e84b0a097
+		summarizeBy: none
+		sourceColumn: chest_pain_type_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column resting_ecg_order
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: a2746d3e-4fac-44d6-a090-203bd0abe60a
+		summarizeBy: none
+		sourceColumn: resting_ecg_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column st_slope_order
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 875d6a93-9346-4588-a342-c34047e64157
+		summarizeBy: none
+		sourceColumn: st_slope_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column thallium_result_order
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: c985e2fd-a0b9-4a3e-8786-ea5a453ca94e
+		summarizeBy: none
+		sourceColumn: thallium_result_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column risk_tier_order
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: b2f69511-9d25-4ecb-aef7-12ac26b04360
+		summarizeBy: none
+		sourceColumn: risk_tier_order
+
+		annotation SummarizationSetBy = Automatic
+
+	partition heart_disease_clean = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "heart_disease_clean.csv"), [Delimiter = ",", Columns = 41, Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"patient_id", type text}, {"age", Int64.Type}, {"age_group", type text}, {"sex", type text}, {"chest_pain_type", type text}, {"resting_bp", Int64.Type}, {"bp_category", type text}, {"cholesterol", Int64.Type}, {"cholesterol_category", type text}, {"high_fasting_sugar", type text}, {"resting_ecg", type text}, {"max_heart_rate", Int64.Type}, {"max_hr_band", type text}, {"exercise_angina", type text}, {"st_depression", type number}, {"st_depression_band", type text}, {"st_slope", type text}, {"vessels_blocked", Int64.Type}, {"vessels_label", type text}, {"thallium_result", type text}, {"sign_silent_chest_pain", Int64.Type}, {"sign_exercise_angina", Int64.Type}, {"sign_st_depression", Int64.Type}, {"sign_low_max_hr", Int64.Type}, {"sign_vessels_narrowed", Int64.Type}, {"sign_thallium_defect", Int64.Type}, {"warning_signs", Int64.Type}, {"risk_tier", type text}, {"heart_disease", Int64.Type}, {"diagnosis", type text}, {"original_target", Int64.Type}, {"age_group_order", Int64.Type}, {"bp_category_order", Int64.Type}, {"cholesterol_category_order", Int64.Type}, {"max_hr_band_order", Int64.Type}, {"st_depression_band_order", Int64.Type}, {"chest_pain_type_order", Int64.Type}, {"resting_ecg_order", Int64.Type}, {"st_slope_order", Int64.Type}, {"thallium_result_order", Int64.Type}, {"risk_tier_order", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,333 @@
+{
+ "patients": 302,
+ "with_disease": 138,
+ "overall_rate": 45.7,
+ "median_age": 55.5,
+ "men_pct": 68.2,
+ "age": {
+  "Under 40": 26.7,
+  "40-49": 30.6,
+  "50-59": 48.0,
+  "60-69": 60.0,
+  "70+": 40.0
+ },
+ "age_n": {
+  "Under 40": 15,
+  "40-49": 72,
+  "50-59": 125,
+  "60-69": 80,
+  "70+": 10
+ },
+ "sex": {
+  "Female": 25.0,
+  "Male": 55.3
+ },
+ "sex_n": {
+  "Female": 96,
+  "Male": 206
+ },
+ "sex_age": {
+  "Female": {
+   "Under 40": 0.0,
+   "40-49": 5.0,
+   "50-59": 29.0,
+   "60-69": 39.0,
+   "70+": 0.0
+  },
+  "Male": {
+   "Under 40": 40.0,
+   "40-49": 40.0,
+   "50-59": 55.0,
+   "60-69": 74.0,
+   "70+": 80.0
+  }
+ },
+ "chest_pain": {
+  "Typical angina": 30.4,
+  "Atypical angina": 18.0,
+  "Non-anginal pain": 20.9,
+  "Asymptomatic": 72.7
+ },
+ "chest_pain_n": {
+  "Typical angina": 23,
+  "Atypical angina": 50,
+  "Non-anginal pain": 86,
+  "Asymptomatic": 143
+ },
+ "routine": {
+  "bp_category": {
+   "Normal (<120)": 38.3,
+   "Elevated (120-129)": 46.7,
+   "Stage 1 (130-139)": 38.6,
+   "Stage 2 (140+)": 54.6
+  },
+  "cholesterol_category": {
+   "Desirable (<200)": 40.8,
+   "Borderline (200-239)": 39.8,
+   "High (240+)": 51.0
+  },
+  "high_fasting_sugar": {
+   "No": 45.1,
+   "Yes": 48.9
+  },
+  "resting_ecg": {
+   "Normal": 37.1,
+   "ST-T abnormality": 75.0,
+   "LV hypertrophy": 53.7
+  }
+ },
+ "routine_n": {
+  "bp_category": {
+   "Normal (<120)": 60,
+   "Elevated (120-129)": 75,
+   "Stage 1 (130-139)": 70,
+   "Stage 2 (140+)": 97
+  },
+  "cholesterol_category": {
+   "Desirable (<200)": 49,
+   "Borderline (200-239)": 98,
+   "High (240+)": 155
+  },
+  "high_fasting_sugar": {
+   "No": 257,
+   "Yes": 45
+  },
+  "resting_ecg": {
+   "Normal": 151,
+   "ST-T abnormality": 4,
+   "LV hypertrophy": 147
+  }
+ },
+ "stress": {
+  "max_hr_band": {
+   "Under 120": 79.4,
+   "120-139": 66.7,
+   "140-159": 48.5,
+   "160+": 24.6
+  },
+  "exercise_angina": {
+   "No": 30.5,
+   "Yes": 76.8
+  },
+  "st_depression_band": {
+   "None (0)": 25.5,
+   "Mild (0.1-1)": 38.3,
+   "Moderate (1.1-2)": 53.4,
+   "Severe (>2)": 86.0
+  },
+  "st_slope": {
+   "Upsloping": 24.8,
+   "Flat": 65.0,
+   "Downsloping": 57.1
+  }
+ },
+ "stress_n": {
+  "max_hr_band": {
+   "Under 120": 34,
+   "120-139": 51,
+   "140-159": 99,
+   "160+": 118
+  },
+  "exercise_angina": {
+   "No": 203,
+   "Yes": 99
+  },
+  "st_depression_band": {
+   "None (0)": 98,
+   "Mild (0.1-1)": 81,
+   "Moderate (1.1-2)": 73,
+   "Severe (>2)": 50
+  },
+  "st_slope": {
+   "Upsloping": 141,
+   "Flat": 140,
+   "Downsloping": 21
+  }
+ },
+ "vessels": {
+  "0 vessel(s)": 25.7,
+  "1 vessel(s)": 67.7,
+  "2 vessel(s)": 81.6,
+  "3 vessel(s)": 85.0,
+  "Unknown": 25.0
+ },
+ "vessels_n": {
+  "0 vessel(s)": 175,
+  "1 vessel(s)": 65,
+  "2 vessel(s)": 38,
+  "3 vessel(s)": 20,
+  "Unknown": 4
+ },
+ "thal": {
+  "Normal": 21.8,
+  "Fixed defect": 66.7,
+  "Reversible defect": 76.1,
+  "Unknown": 50.0
+ },
+ "thal_n": {
+  "Normal": 165,
+  "Fixed defect": 18,
+  "Reversible defect": 117,
+  "Unknown": 2
+ },
+ "ranking": [
+  {
+   "factor": "Thallium scan",
+   "test_type": "Imaging",
+   "cramers_v": 0.53,
+   "rate_gap_pts": 54.3,
+   "significant": "Yes"
+  },
+  {
+   "factor": "Chest-pain type",
+   "test_type": "Symptoms",
+   "cramers_v": 0.52,
+   "rate_gap_pts": 54.7,
+   "significant": "Yes"
+  },
+  {
+   "factor": "Vessels narrowed",
+   "test_type": "Imaging",
+   "cramers_v": 0.49,
+   "rate_gap_pts": 59.3,
+   "significant": "Yes"
+  },
+  {
+   "factor": "Exercise angina",
+   "test_type": "Stress test",
+   "cramers_v": 0.43,
+   "rate_gap_pts": 46.3,
+   "significant": "Yes"
+  },
+  {
+   "factor": "ST depression",
+   "test_type": "Stress test",
+   "cramers_v": 0.42,
+   "rate_gap_pts": 60.5,
+   "significant": "Yes"
+  },
+  {
+   "factor": "Max heart rate",
+   "test_type": "Stress test",
+   "cramers_v": 0.39,
+   "rate_gap_pts": 54.8,
+   "significant": "Yes"
+  },
+  {
+   "factor": "ST slope",
+   "test_type": "Stress test",
+   "cramers_v": 0.39,
+   "rate_gap_pts": 40.2,
+   "significant": "Yes"
+  },
+  {
+   "factor": "Sex",
+   "test_type": "Demographics",
+   "cramers_v": 0.28,
+   "rate_gap_pts": 30.3,
+   "significant": "Yes"
+  },
+  {
+   "factor": "Age group",
+   "test_type": "Demographics",
+   "cramers_v": 0.23,
+   "rate_gap_pts": 33.3,
+   "significant": "Yes"
+  },
+  {
+   "factor": "Resting ECG",
+   "test_type": "Routine check",
+   "cramers_v": 0.18,
+   "rate_gap_pts": 16.6,
+   "significant": "Yes"
+  },
+  {
+   "factor": "Blood pressure",
+   "test_type": "Routine check",
+   "cramers_v": 0.14,
+   "rate_gap_pts": 16.3,
+   "significant": "No"
+  },
+  {
+   "factor": "Cholesterol",
+   "test_type": "Routine check",
+   "cramers_v": 0.11,
+   "rate_gap_pts": 11.2,
+   "significant": "No"
+  },
+  {
+   "factor": "Fasting blood sugar",
+   "test_type": "Routine check",
+   "cramers_v": 0.02,
+   "rate_gap_pts": 3.8,
+   "significant": "No"
+  }
+ ],
+ "signs": {
+  "0": 3.8,
+  "1": 18.8,
+  "2": 27.1,
+  "3": 72.4,
+  "4": 90.9,
+  "5": 93.3,
+  "6": 100.0
+ },
+ "signs_n": {
+  "0": 53,
+  "1": 69,
+  "2": 59,
+  "3": 29,
+  "4": 44,
+  "5": 30,
+  "6": 18
+ },
+ "tiers": [
+  {
+   "risk_tier": "Low",
+   "patients": 122,
+   "with_disease": 15,
+   "disease_rate_%": 12.3,
+   "share_of_patients_%": 40.4,
+   "share_of_all_disease_%": 10.9
+  },
+  {
+   "risk_tier": "Medium",
+   "patients": 88,
+   "with_disease": 37,
+   "disease_rate_%": 42.0,
+   "share_of_patients_%": 29.1,
+   "share_of_all_disease_%": 26.8
+  },
+  {
+   "risk_tier": "High",
+   "patients": 92,
+   "with_disease": 86,
+   "disease_rate_%": 93.5,
+   "share_of_patients_%": 30.5,
+   "share_of_all_disease_%": 62.3
+  }
+ ],
+ "means": {
+  "Heart disease": {
+   "resting_bp": 134.4,
+   "cholesterol": 251.1
+  },
+  "No heart disease": {
+   "resting_bp": 129.2,
+   "cholesterol": 242.6
+  }
+ },
+ "mean_p": {
+  "resting_bp": 0.03222615575138192,
+  "cholesterol": 0.04242517740485375
+ },
+ "outliers": {
+  "age": 0,
+  "resting_bp": 9,
+  "cholesterol": 5,
+  "max_heart_rate": 1,
+  "st_depression": 5
+ },
+ "age_median_d": 58.0,
+ "age_median_n": 52.0
+}

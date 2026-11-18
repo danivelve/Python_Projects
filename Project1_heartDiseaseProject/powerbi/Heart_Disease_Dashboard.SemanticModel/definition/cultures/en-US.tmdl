@@ -1,0 +1,252 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "2.0.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "heart_disease_clean.total_patients": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "heart_disease_clean",
+			          "ConceptualProperty": "Total Patients"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Patients": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Unique patients": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "heart_disease_clean.disease_cases": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "heart_disease_clean",
+			          "ConceptualProperty": "Disease Cases"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "With heart disease": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "heart_disease_clean.disease_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "heart_disease_clean",
+			          "ConceptualProperty": "Disease Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Disease rate": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "heart_disease_clean.median_age": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "heart_disease_clean",
+			          "ConceptualProperty": "Median Age"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Median age": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "heart_disease_clean.male": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "heart_disease_clean",
+			          "ConceptualProperty": "% Male"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Men": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "heart_disease_clean.high_risk_patients": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "heart_disease_clean",
+			          "ConceptualProperty": "High Risk Patients"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "High-risk patients": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "heart_disease_clean.high_risk_share_of_patients": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "heart_disease_clean",
+			          "ConceptualProperty": "High Risk Share of Patients"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Share of patients": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "heart_disease_clean.high_risk_share_of_cases": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "heart_disease_clean",
+			          "ConceptualProperty": "High Risk Share of Cases"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Share of all cases": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "heart_disease_clean.issues_found": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "heart_disease_clean",
+			          "ConceptualProperty": "Issues Found"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Issues logged": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "heart_disease_clean.unknown_vessel_results": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "heart_disease_clean",
+			          "ConceptualProperty": "Unknown Vessel Results"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Unknown vessel results": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "heart_disease_clean.unknown_thallium_results": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "heart_disease_clean",
+			          "ConceptualProperty": "Unknown Thallium Results"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Unknown thallium results": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

@@ -1,0 +1,21 @@
+# Original, NON-anonymised source files – these contain real names, emails and IDs.
+# They must never be pushed. The anonymised copies live inside each project's data/raw/.
+/apc_ups_project.csv
+/laptop_lifecycle_project.csv
+/secure_boot_devices_project.csv
+/data/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Office lock files
+~$*
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store

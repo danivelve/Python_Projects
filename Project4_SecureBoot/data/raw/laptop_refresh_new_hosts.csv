@@ -1,0 +1,506 @@
+new_host,location,keyed_date,shipping_date
+BMT-LTSDE8D6C1,"Brampton, ON",Jun-17,19-Jun-26
+BMT-LTSD9BBC12,"Brampton, ON",Jun-17,19-Jun-26
+BMT-LTSDD7D6BA ,"Brampton, ON",Jun-17,19-Jun-26
+BMT-LTSDB8E8F4,"Brampton, ON",Jun-17,19-Jun-26
+BMT-LTSDB36DB9,"Brampton, ON",Jun-17,19-Jun-26
+BMT-LTSD17DB57,"Brampton, ON",Jun-17,19-Jun-26
+KST-LTSD693932,"CA Toronto-King St., ON",18-Jun,22-Jun-26
+KST-LTSD91096C,"CA Toronto-King St., ON",18-Jun,22-Jun-26
+KST-LTSD66BED6 ,"CA Toronto-King St., ON",18-Jun,22-Jun-26
+KST-LTSDCD57C2,"CA Toronto-King St., ON",18-Jun,22-Jun-26
+KST-LTSD5A139A,"CA Toronto-King St., ON",18-Jun,22-Jun-26
+KST-LTSDDE768C ,Ontario (WFH),18-Jun,22-Jun-26
+KST-LTSD11FFC2,Ontario (WFH),18-Jun,22-Jun-26
+BMT-LTSDAFD013,Ontario (WFH),Jun-17,19-Jun-26
+KST-LTSDE0DD8F,Ontario (WFH),18-Jun,22-Jun-26
+KST-LTSD084F6C,Ontario (WFH),46191,22-Jun-26
+KST-LTSD1340B1,Ontario (WFH),18-Jun,22-Jun-26
+ASM-LTSD03D367,Quebec (WFH),18-Jun,22-Jun-26
+HFX-LTSDA9D233,"Halifax, NS",18-Jun,22-Jun-26
+SKA-LTSD65BAFE ,"Saskatoon, SK",18-Jun,22-Jun-26
+EDC-LTSDDE1CD9,"Edmonton, AB",18-Jun,22-Jun-26
+EDC-LTSD2DC8CB,"Edmonton, AB",18-Jun,22-Jun-26
+BMT-LTSD8FBE48,"Brampton, ON",17-Jun,22-Jun-26
+WST-LTSDF003CE,"Weston, ON",18-Jun,22-Jun-26
+BMT-LTSD04BD9C,"Brampton, ON",22-Jun,23-Jun-26
+BMT-LTSDDB14B0 ,"Brampton, ON",22-Jun,23-Jun-26
+BMT-LTSD703DFA ,"Brampton, ON",22-Jun,23-Jun-26
+BMT-LTSD67399C,"Brampton, ON",22-Jun,23-Jun-26
+BMT-LTSDF4AA8E ,"Brampton, ON",22-Jun,23-Jun-26
+BMT-LTSDC2CDC5,"Brampton, ON",22-Jun,23-Jun-26
+BMT-LTSDFBF2E5,"Brampton, ON",22-Jun,23-Jun-26
+BMT-LTSD0363AF ,"Brampton, ON",22-Jun,23-Jun-26
+BMT-LTSDDBEBCC,"Brampton, ON",22-Jun,23-Jun-26
+BMT-LTSDDB8577 ,"Brampton, ON",22-Jun,23-Jun-26
+BMT-LTSD991A19,"Brampton, ON",22-Jun,23-Jun-26
+BMT-LTSDE04F27,"Brampton, ON",22-Jun,23-Jun-26
+BMT-LTSDFD1B3A,"Brampton, ON",22-Jun,23-Jun-26
+ASM-LTSDE0C772,"L'Assomption, QC",22-Jun,23-Jun-26
+BMT-LTSD2ED51E,"Brampton, ON",25-Jun,26-Jun-26
+BMT-LTSD9DFFCC,"Brampton, ON",25-Jun,26-Jun-26
+BMT-LTSDFF4FB3,"Brampton, ON",25-Jun,26-Jun-26
+BMT-LTSDC328B2 ,"Brampton, ON",25-Jun,26-Jun-26
+BMT-LTSDFECA3C ,"Brampton, ON",25-Jun,26-Jun-26
+BMT-LTSD14F3BA ,"Brampton, ON",25-Jun,26-Jun-26
+BMT-LTSDCE1938,"Brampton, ON",25-Jun,26-Jun-26
+BMT-LTSD57B3F2,"Brampton, ON",25-Jun,26-Jun-26
+BMT-LTSD5D6C38,"Brampton, ON",25-Jun,26-Jun-26
+BMT-LTSD870420,"Brampton, ON",25-Jun,26-Jun-26
+BMT-LTSDBEE867 ,"Brampton, ON",25-Jun,26-Jun-26
+BMT-LTSD4E1356,"Brampton, ON",25-Jun,26-Jun-26
+BMT-LTSD3031DC ,"Brampton, ON",25-Jun,26-Jun-26
+BMT-LTSDE7525C,"Brampton, ON",25-Jun,26-Jun-26
+BMT-LTSDFE8632,"Brampton, ON",25-Jun,26-Jun-26
+BMT-LTSD0ECA89,"Brampton, ON",25-Jun,26-Jun-26
+CLG-LTSD61C0CA ,"Calgary, AB",25-Jun,26-Jun-26
+CLG-LTSDFAE146 ,"Calgary, AB",25-Jun,26-Jun-26
+CLG-LTSDA28386,"Calgary, AB",25-Jun,26-Jun-26
+CLG-LTSDAA80F8,Alberta (WFH),25-Jun,26-Jun-26
+LLY-LTSD489F8E,"Blackfoot, AB",26-Jun,03-Jul-26
+RCM-LTSDDE2BC8,"Richmond Prod, BC",26-Jun,03-Jul-26
+RCM-LTSD70DEFA,"Richmond Prod, BC",26-Jun,03-Jul-26
+WST-LTSDDCE0BC,"Weston, ON",26-Jun,03-Jul-26
+WST-LTSDE09336,"Weston, ON",26-Jun,03-Jul-26
+WST-LTSD9D932B,"Weston, ON",26-Jun,03-Jul-26
+BMT-LTSD1008B8,"Brampton, ON",29-Jun,03-Jul-26
+QBC-LTSD06FCEF,"Quebec City, QC",29-Jun,03-Jul-26
+QBC-LTSD6096F1,"Quebec City, QC",29-Jun,03-Jul-26
+QBC-LTSD3EAB01,"Quebec City, QC",29-Jun,03-Jul-26
+QBC-LTSDFE5FD8,"Quebec City, QC",29-Jun,03-Jul-26
+QBC-LTSDF0E39C,"Quebec City, QC",29-Jun,03-Jul-26
+QBC-LTSD808AC4,"Quebec City, QC",29-Jun,03-Jul-26
+QBC-LTSD6B36FF,"Quebec City, QC",29-Jun,03-Jul-26
+QBC-LTSDBEBAAD,"Quebec City, QC",29-Jun,03-Jul-26
+QBC-LTSD6F272F,"Quebec City, QC",29-Jun,03-Jul-26
+KST-LTSD926257,Ontario (WFH),03-Jul,06-Jul-26
+KST-LTSDA0DB68,Ontario (WFH),03-Jul,06-Jul-26
+KST-LTSDD02368,Ontario (WFH),03-Jul,06-Jul-26
+KST-LTSDA64586,Ontario (WFH),03-Jul,06-Jul-26
+BMT-LTSD0580D9,"Brampton, ON",03-Jul,06-Jul-26
+BMT-LTSDB38E71,"Brampton, ON",03-Jul,06-Jul-26
+KST-LTSD8FFAA2,Ontario (WFH),04-Jul,08-Jul-26
+HAM-LTSDB769C4,"Hamilton, ON",08-Jul,10-Jul-26
+HAM-LTSD332883,"Hamilton, ON",08-Jul,10-Jul-26
+KGT-LTSDAA5850,"Kingston, ON",08-Jul,10-Jul-26
+KGT-LTSD2CF6E3,"Kingston, ON",08-Jul,10-Jul-26
+BRR-LTSDD7B7BB,"Barrie, ON",08-Jul,10-Jul-26
+BMT-LTSDB79F77,"Brampton, ON",08-Jul,10-Jul-26
+KST-LTSDFD5CF1,"CA Toronto-King St., ON",08-Jul,10-Jul-26
+KST-LTSDE48495,"CA Toronto-King St., ON",08-Jul,10-Jul-26
+KST-LTSDF2FD6E,"CA Toronto-King St., ON",08-Jul,10-Jul-26
+KST-LTSD4963D1,"CA Toronto-King St., ON",08-Jul,10-Jul-26
+KST-LTSD8AF6E4,"CA Toronto-King St., ON",07-Jul,08-Jul-26
+KST-LTSDD4DC86,"CA Toronto-King St., ON",08-Jul,10-Jul-26
+KST-LTSDC295C1,"CA Toronto-King St., ON",08-Jul,10-Jul-26
+KST-LTSDD81BFC,"CA Toronto-King St., ON",08-Jul,10-Jul-26
+KST-LTSDD08001,Ontario (WFH),07-Jul,08-Jul-26
+KST-LTSDC1FAA8,Ontario (WFH),09-Jul,10-Jul-26
+KST-LTSDE3CD01,Ontario (WFH),07-Jul,08-Jul-26
+KST-LTSD840320,Ontario (WFH),07-Jul,08-Jul-26
+KST-LTSD6949E3,Ontario (WFH),07-Jul,10-Jul-26
+KST-LTSD545804,Ontario (WFH),08-Jul,10-Jul-26
+KST-LTSD6AB35E,Ontario (WFH),07-Jul,08-Jul-26
+KST-LTSD049B97,Ontario (WFH),07-Jul,08-Jul-26
+ASM-LTSD4A9331,"L'Assomption, QC",07-Jul,08-Jul-26
+ASM-LTSD8B7542,"L'Assomption, QC",09-Jul,10-Jul-26
+CLG-LTSDFED2A8,Alberta (WFH),07-Jul,08-Jul-26
+EDC-LTSD7C4049,"Edmonton, AB",07-Jul,10-Jul-26
+EDC-LTSD5A0FF4,"Edmonton, AB",07-Jul,10-Jul-26
+EDC-LTSDE067DE,"Edmonton, AB",07-Jul,10-Jul-26
+EDC-LTSDAC6378,"Edmonton, AB",07-Jul,10-Jul-26
+EDC-LTSDE1246F,"Edmonton, AB",07-Jul,10-Jul-26
+EDC-LTSDBC6EFA,"Edmonton, AB",07-Jul,10-Jul-26
+PGG-LTSD2DD76E,"Prince George, BC",07-Jul,10-Jul-26
+PGG-LTSD89CB05,"Prince George, BC",07-Jul,10-Jul-26
+CLG-LTSD6F63D6,Alberta (WFH),07-Jul,10-Jul-26
+CLG-LTSDDDCBDA,Alberta (WFH),07-Jul,10-Jul-26
+CLG-LTSD649312,"Calgary, AB",07-Jul,08-Jul-26
+VCR-LTSD78A690,British Columbia (WFH),08-Jul,10-Jul-26
+VCR-LTSD6B1CAC,British Columbia (WFH),08-Jul,10-Jul-26
+VCR-LTSD301726,"Richmond Field Op, BC",08-Jul,10-Jul-26
+VCR-LTSD70722C,British Columbia (WFH),08-Jul,10-Jul-26
+VCR-LTSD65C87F,"Richmond Field Op, BC",14-Jul,15-Jul-26
+VCR-LTSD2D2A3B,"Richmond Field Op, BC",10-Jul,17-Jul-26
+KST-LTSD787B50,Ontario (WFH),10-Jul,15-Jul-26
+KST-LTSDF1A0E2,Vancouver,10-Jul,15-Jul-26
+OTW-LTSD097EC5,"Ottawa, ON",10-Jul,15-Jul-26
+OTW-LTSD4FA0EB,"Ottawa, ON",10-Jul,15-Jul-26
+OTW-LTSD713F8F,"Ottawa, ON",10-Jul,15-Jul-26
+OTW-LTSD2A480C,"Ottawa, ON",10-Jul,15-Jul-26
+OTW-LTSD289B2C,"Ottawa, ON",10-Jul,15-Jul-26
+OTW-LTSD17B53F,"Ottawa, ON",10-Jul,15-Jul-26
+OTW-LTSD3676E1,"Ottawa, ON",10-Jul,15-Jul-26
+OTW-LTSD9944D9,"Ottawa, ON",10-Jul,15-Jul-26
+OTW-LTSDD0212A,"Ottawa, ON",10-Jul,15-Jul-26
+OTW-LTSDA1E1C9,"Ottawa, ON",10-Jul,15-Jul-26
+WNN-LTSD385094,"Winnipeg, MB",10-Jul,15-Jul-26
+WNN-LTSDA30312,"Winnipeg, MB",10-Jul,15-Jul-26
+WNN-LTSDF15155,"Winnipeg, MB",10-Jul,15-Jul-26
+WNN-LTSD051E2F,"Winnipeg, MB",10-Jul,15-Jul-26
+WNN-LTSD468355,"Winnipeg, MB",10-Jul,15-Jul-26
+WNN-LTSDC053EA,"Winnipeg, MB",10-Jul,15-Jul-26
+WNN-LTSD15224C,"Winnipeg, MB",10-Jul,15-Jul-26
+WNN-LTSDB7AE4A,"Winnipeg, MB",10-Jul,15-Jul-26
+WNN-LTSD3542D2,"Winnipeg, MB",10-Jul,15-Jul-26
+WNN-LTSD161D02,"Winnipeg, MB",10-Jul,15-Jul-26
+WNN-LTSDBD0E7C,"Winnipeg, MB",10-Jul,15-Jul-26
+HAM-LTSD0EEA6F,"Hamilton, ON",15-Jul,17-Jul-26
+HAM-LTSDA5004C,"Hamilton, ON",15-Jul,17-Jul-26
+HAM-LTSD8B5C9F,"Hamilton, ON",15-Jul,17-Jul-26
+HAM-LTSD7D2158,"Hamilton, ON",15-Jul,17-Jul-26
+HAM-LTSD139580,"Hamilton, ON",15-Jul,17-Jul-26
+HAM-LTSDEC6BBA,"Hamilton, ON",15-Jul,17-Jul-26
+BMT-LTSDE9B423,"Brampton, ON",14-Jul,15-Jul-26
+LCH-LTSD70A1D2,"Lachine, QC",14-Jul,15-Jul-26
+WST-LTSD5EA412,"Weston, ON",14-Jul,15-Jul-26
+KLW-LTSDB4A50A,"Kelowna, BC",15-Jul,17-Jul-26
+KLW-LTSD80FF7E,"Kelowna, BC",15-Jul,17-Jul-26
+KLW-LTSDA82519,"Kelowna, BC",15-Jul,17-Jul-26
+KLW-LTSDDBA918,"Kelowna, BC",15-Jul,17-Jul-26
+KLW-LTSD9109F0,"Kelowna, BC",15-Jul,17-Jul-26
+BMT-LTSD12EE89,"Brampton, ON",16-Jul,17-Jul-26
+BMT-LTSDF4BCCA,"Brampton, ON",16-Jul,17-Jul-26
+BMT-LTSDAD0D92,"Brampton, ON",16-Jul,17-Jul-26
+BMT-LTSDB4DBA0,"Brampton, ON",16-Jul,17-Jul-26
+BMT-LTSD13D1B8,"Brampton, ON",16-Jul,17-Jul-26
+BMT-LTSDBB0504,"Brampton, ON",16-Jul,17-Jul-26
+BMT-LTSDD69D56,"Brampton, ON",16-Jul,17-Jul-26
+BMT-LTSD0EF4A3,"Brampton, ON",16-Jul,17-Jul-26
+BMT-LTSD1A6770,"Brampton, ON",16-Jul,17-Jul-26
+BMT-LTSDF2C9D6,"Brampton, ON",16-Jul,17-Jul-26
+BMT-LTSD63F311,"Brampton, ON",16-Jul,17-Jul-26
+BMT-LTSDF029EC,"Brampton, ON",16-Jul,17-Jul-26
+BMT-LTSDE92EBC,"Brampton, ON",16-Jul,17-Jul-26
+BMT-LTSD6A2BA9,"Brampton, ON",16-Jul,17-Jul-26
+BMT-LTSDAC2A93 ,"Brampton, ON",16-Jul,17-Jul-26
+BMT-LTSD58CBB4,"Brampton, ON",16-Jul,17-Jul-26
+BRR-LTSD32D83E,"Barrie, ON",16-Jul,17-Jul-26
+BRR-LTSDA14E4A ,"Barrie, ON",16-Jul,17-Jul-26
+BRR-LTSD986AE7,"Barrie, ON",16-Jul,17-Jul-26
+BRR-LTSD67889D,"Barrie, ON",16-Jul,17-Jul-26
+BRR-LTSDCC0EDB ,"Barrie, ON",16-Jul,17-Jul-26
+BRR-LTSDBE7549 ,"Barrie, ON",16-Jul,17-Jul-26
+BRR-LTSDB27C9D,"Barrie, ON",16-Jul,17-Jul-26
+KST-LTSD7CE5B5,"CA Toronto-King St., ON",16-Jul,17-Jul-26
+WST-LTSDF2104D,"Weston, ON",19-Jul,22-Jul-26
+RCM-LTSDE0F909,"Richmond Prod, BC",19-Jul,22-Jul-26
+RCM-LTSDB38B9C,"Richmond Prod, BC",19-Jul,22-Jul-26
+RCM-LTSD90FA40,"Richmond Prod, BC",19-Jul,22-Jul-26
+RCM-LTSDED91F5,"Richmond Prod, BC",19-Jul,22-Jul-26
+WNN-LTSDAF2017,Manitoba (WFH),21-Jul,24-Jul-26
+WST-LTSD29749F,"Weston, ON",21-Jul,24-Jul-26
+ASM-LTSDB48EB9,"L'Assomption, QC",22-Jul,24-Jul-26
+ASM-LTSD2AC805,"L'Assomption, QC",22-Jul,24-Jul-26
+ASM-LTSD29B15D,"L'Assomption, QC",22-Jul,24-Jul-26
+ASM-LTSDFB9CBD,"L'Assomption, QC",22-Jul,24-Jul-26
+ASM-LTSD1F0FAE,"L'Assomption, QC",22-Jul,24-Jul-26
+ASM-LTSD279F39,"L'Assomption, QC",22-Jul,24-Jul-26
+ASM-LTSD3E4505,"L'Assomption, QC",22-Jul,24-Jul-26
+ASM-LTSDFC1F66,"L'Assomption, QC",22-Jul,24-Jul-26
+ASM-LTSD827EDD,"L'Assomption, QC",22-Jul,24-Jul-26
+ASM-LTSDEE7490,"L'Assomption, QC",22-Jul,24-Jul-26
+LCH-LTSDF681D6,"Lachine, QC",22-Jul,24-Jul-26
+LCH-LTSD37E7CC,"Lachine, QC",22-Jul,24-Jul-26
+LCH-LTSD24BA04,"Lachine, QC",22-Jul,24-Jul-26
+LCH-LTSDFC5552,"Lachine, QC",22-Jul,24-Jul-26
+LCH-LTSD49F969,"Lachine, QC",22-Jul,24-Jul-26
+LCH-LTSDD91043,"Lachine, QC",22-Jul,24-Jul-26
+LCH-LTSDCCF18C,"Lachine, QC",22-Jul,24-Jul-26
+LCH-LTSDA05B71,"Lachine, QC",22-Jul,24-Jul-26
+LCH-LTSDCC52D2,"Lachine, QC",22-Jul,24-Jul-26
+LCH-LTSDCA6A38,"Lachine, QC",22-Jul,24-Jul-26
+CLG-LTSD644FAB,"Calgary, AB",21-Jul,24-Jul-26
+CLG-LTSD4F0AAB,"Calgary, AB",21-Jul,24-Jul-26
+CLG-LTSDDFF0B0,"Calgary, AB",21-Jul,24-Jul-26
+CLG-LTSDDDE1DF,"Calgary, AB",21-Jul,24-Jul-26
+CLG-LTSD99079E,"Calgary, AB",21-Jul,24-Jul-26
+CLG-LTSD3D044F,"Calgary, AB",21-Jul,24-Jul-26
+CLG-LTSD6C6D45,"Calgary, AB",21-Jul,24-Jul-26
+CLG-LTSDD39234,"Calgary, AB",21-Jul,24-Jul-26
+CLG-LTSD307DB3,"Calgary, AB",21-Jul,24-Jul-26
+CLG-LTSD813247,"Calgary, AB",21-Jul,24-Jul-26
+NNM-LTSD582AF2,"Nanaimo, BC",21-Jul,24-Jul-26
+NNM-LTSDC36AEF,"Nanaimo, BC",21-Jul,24-Jul-26
+NNM-LTSDB55426,"Nanaimo, BC",21-Jul,24-Jul-26
+NNM-LTSD18B6A0,"Nanaimo, BC",21-Jul,24-Jul-26
+VCX-LTSD92CA61,"Victoria, BC",21-Jul,24-Jul-26
+VCX-LTSDB051D5,"Victoria, BC",21-Jul,24-Jul-26
+VCX-LTSD17B854,"Victoria, BC",21-Jul,24-Jul-26
+SDB-LTSDDECCED,"Sudbury, ON",21-Jul,24-Jul-26
+SDB-LTSD77F42D,"Sudbury, ON",21-Jul,24-Jul-26
+SDB-LTSD8DD2F5,"Sudbury, ON",21-Jul,24-Jul-26
+SDB-LTSD0BABC0,"Sudbury, ON",21-Jul,24-Jul-26
+LTB-LTSD8F4B08,"Lethbridge, AB",22-Jul,24-Jul-26
+MCT-LTSD262BBE,"Moncton, NB",22-Jul,24-Jul-26
+MCT-LTSD53BA5F,"Moncton, NB",22-Jul,24-Jul-26
+MCT-LTSDE2DBF9,"Moncton, NB",22-Jul,24-Jul-26
+BMT-LTSD8A0AF2,"Brampton, ON",23-Jul,29-Jul-26
+KST-LTSDC5627B,"CA Toronto-King St., ON",29-Jul,29-Jul-26
+KST-LTSD5C16D4,"CA Toronto-King St., ON",29-Jul,29-Jul-26
+KST-LTSD0242A0,"CA Toronto-King St., ON",29-Jul,29-Jul-26
+KST-LTSDC26E92,"CA Toronto-King St., ON",29-Jul,03-Aug
+KST-LTSD9B727F,"CA Toronto-King St., ON",29-Jul,03-Aug
+KST-LTSD41D1DE,"CA Toronto-King St., ON",29-Jul,03-Aug
+KST-LTSD8A52D5,"CA Toronto-King St., ON",29-Jul,03-Aug
+LON-LTSDA1F404,"London, ON",29-Jul,03-Aug
+LON-LTSD6E5C5F,"London, ON",29-Jul,03-Aug
+LON-LTSD5CD6EA,"London, ON",29-Jul,03-Aug
+LON-LTSDC8935E,"London, ON",29-Jul,03-Aug
+LON-LTSDAF54D5,"London, ON",29-Jul,03-Aug
+LON-LTSDD732C4,"London, ON",29-Jul,03-Aug
+LON-LTSD1621C8,"London, ON",29-Jul,03-Aug
+LON-LTSD6746D7,"London, ON",29-Jul,03-Aug
+LON-LTSDE960DA,"London, ON",29-Jul,03-Aug
+FRT-LTSD699D34,"Fredericton, NB",29-Jul,03-Aug
+HFX-LTSDBA1ABC,"Halifax, NS",29-Jul,03-Aug
+HFX-LTSD2AB3D1,"Halifax, NS",29-Jul,03-Aug
+HFX-LTSDFA3228,"Halifax, NS",29-Jul,03-Aug
+HFX-LTSD75C03E,"Halifax, NS",29-Jul,03-Aug
+CLG-LTSD16597D,"Calgary, AB",29-Jul,03-Aug
+CLG-LTSDB0AF59,"Calgary, AB",29-Jul,03-Aug
+CLG-LTSD65D9DD,"Calgary, AB",29-Jul,03-Aug
+TNB-LTSD1ECBBA,"Thunder Bay, ON",29-Jul,03-Aug
+EDC-LTSD9652C3,"Edmonton, AB",29-Jul,03-Aug
+EDC-LTSD64E9F8,"Edmonton, AB",29-Jul,03-Aug
+EDC-LTSDA15519,"Edmonton, AB",29-Jul,03-Aug
+EDC-LTSDD9833A,"Edmonton, AB",29-Jul,03-Aug
+EDC-LTSDB8327F,"Edmonton, AB",29-Jul,03-Aug
+EDC-LTSD943736,"Edmonton, AB",29-Jul,03-Aug
+EDC-LTSDCA822A,"Edmonton, AB",29-Jul,03-Aug
+EDC-LTSDB0E757,"Edmonton, AB",29-Jul,03-Aug
+EDC-LTSDC31B6E,"Edmonton, AB",29-Jul,05-Aug
+WST-LTSD4B68EC,"Weston, ON",29-Jul,05-Aug
+KST-LTSD61C68E,"CA Toronto-King St., ON",29-Jul,05-Aug
+KST-LTSDF353C1,"CA Toronto-King St., ON",29-Jul,05-Aug
+CLG-LTSDDDFB02,"Calgary, AB",29-Jul,05-Aug
+CLG-LTSDAC3357,"Calgary, AB",29-Jul,05-Aug
+CLG-LTSDB9BCF5,"Calgary, AB",29-Jul,05-Aug
+CLG-LTSD254105,"Calgary, AB",29-Jul,05-Aug
+CLG-LTSD9B6499,"Calgary, AB",29-Jul,05-Aug
+RGN-LTSD3442B5,"Regina, SK",29-Jul,05-Aug
+RGN-LTSDF2207A,"Regina, SK",29-Jul,05-Aug
+RGN-LTSDDBB38C,"Regina, SK",29-Jul,05-Aug
+RGN-LTSD1E4FE6,"Regina, SK",29-Jul,05-Aug
+RGN-LTSDB74153,"Regina, SK",29-Jul,05-Aug
+SKA-LTSDB23673,"Saskatoon, SK",29-Jul,05-Aug
+SKA-LTSDE53011,"Saskatoon, SK",29-Jul,05-Aug
+SKA-LTSDC906F6,"Saskatoon, SK",29-Jul,05-Aug
+SKA-LTSD5357BF,"Saskatoon, SK",29-Jul,05-Aug
+SKA-LTSD5E9C4A,"Saskatoon, SK",29-Jul,05-Aug
+VCR-LTSDD18916 ,"Richmond Field Op, BC",22-Jun,23-Jun-26
+VCR-LTSD8AB3E9,"Richmond Field Op, BC",30-Jul,05-Aug
+VCR-LTSD4D254B,"Richmond Field Op, BC",30-Jul,05-Aug
+VCR-LTSD9CFA7B,"Richmond Field Op, BC",30-Jul,05-Aug
+VCR-LTSDB0378A,"Richmond Field Op, BC",30-Jul,05-Aug
+VCR-LTSD0675D7,"Richmond Field Op, BC",30-Jul,05-Aug
+VCR-LTSDF2B118,"Richmond Field Op, BC",30-Jul,05-Aug
+KST-LTSD82FE81,Ontario (WFH),07-Aug,12-Aug
+ASM-LTSD085782,"L'Assomption, QC",07-Aug,12-Aug
+ASM-LTSD2F97CC,"L'Assomption, QC",10-Aug,14-Aug
+ASM-LTSD94DBE4,"L'Assomption, QC",10-Aug,14-Aug
+ASM-LTSDA85E55,"L'Assomption, QC",10-Aug,14-Aug
+ASM-LTSD7B34A7,"L'Assomption, QC",10-Aug,14-Aug
+ASM-LTSD90560B,"L'Assomption, QC",10-Aug,14-Aug
+ASM-LTSDBAB1AE,"L'Assomption, QC",10-Aug,14-Aug
+ASM-LTSD0F6531,"L'Assomption, QC",10-Aug,14-Aug
+TRV-LTSD0B16C0,"Trois Rivieres, QC",10-Aug,14-Aug
+BRR-LTSDFFD876,"CA Toronto-King St., ON",12-Aug,14-Aug
+WST-LTSD8D9D43,"Weston, ON",12-Aug,14-Aug
+KST-LTSD40EB97,"CA Toronto-King St., ON",12-Aug,14-Aug
+KST-LTSD382D86,"CA Toronto-King St., ON",12-Aug,14-Aug
+WST-LTSDAF85F1,"Weston, ON",12-Aug,14-Aug
+WST-LTSD2211C2,"Weston, ON",12-Aug,14-Aug
+BMT-LTSDC8C768,"Brampton, ON",12-Aug,14-Aug
+BMT-LTSDAFDE05,"Brampton, ON",12-Aug,14-Aug
+BMT-LTSD4CAE4C,"Brampton, ON",12-Aug,14-Aug
+BMT-LTSD3BF38F,"Brampton, ON",12-Aug,14-Aug
+BMT-LTSDF24B89,"Brampton, ON",12-Aug,14-Aug
+BMT-LTSD6FD458,"Brampton, ON",12-Aug,14-Aug
+BMT-LTSDCD9825,"Brampton, ON",12-Aug,14-Aug
+BMT-LTSD540384,"Brampton, ON",12-Aug,14-Aug
+BMT-LTSD69A71A,"Brampton, ON",12-Aug,14-Aug
+BMT-LTSD2154DE,"Brampton, ON",12-Aug,14-Aug
+KST-LTSDE602A6,"CA Toronto-King St., ON",10-Aug,14-Aug
+CLG-LTSDC0A2D5,"Calgary, AB",12-Aug,14-Aug
+CLG-LTSD5A9E55,"Calgary, AB",12-Aug,14-Aug
+HFX-LTSD132369,Nova Scotia (WFH),12-Aug,14-Aug
+MCT-LTSD732DCD,"Prince Edward Island, PE",10-Aug,14-Aug
+RCM-LTSDA1E289,"Richmond Prod, BC",10-Aug,14-Aug
+RCM-LTSD3C8A8E,"Richmond Prod, BC",10-Aug,14-Aug
+RCM-LTSDABF08B,"Richmond Prod, BC",10-Aug,14-Aug
+RCM-LTSD498BA9,"Richmond Prod, BC",10-Aug,14-Aug
+RCM-LTSD7AB7D7,"Richmond Prod, BC",10-Aug,14-Aug
+RCM-LTSD8EAC8B,"Richmond Prod, BC",10-Aug,14-Aug
+RCM-LTSDACFE07,"Richmond Prod, BC",10-Aug,14-Aug
+RCM-LTSDAFD5BD,"Richmond Prod, BC",10-Aug,14-Aug
+RCM-LTSDD22C9A,"Richmond Prod, BC",10-Aug,14-Aug
+VCR-LTSD92B897,"Richmond Field Op, BC",No,14-Aug
+BRD-LTSD9178CD,"Brandon, MB",12-Aug,14-Aug
+BMT-LTSD1D36D7,Ontario (WFH),12-Aug,19-Aug
+BMT-LTSD4BEEF6,"Brampton, ON",12-Aug,19-Aug
+MCT-LTSDBC5C6B,New Brunswick (WFH),13-Aug,19-Aug
+KST-LTSD8A399C,"CA Toronto-King St., ON",13-Aug,19-Aug
+KST-LTSD2F3F7C,"CA Toronto-King St., ON",13-Aug,19-Aug
+GRA-LTSD8F11A4,"Granby, QC",18-Aug,18-Aug
+GRA-LTSD8C5F74,"Granby, QC",18-Aug,18-Aug
+BRD-LTSD49C6EB,"Calgary, AB",12-Aug,14-Aug
+KST-LTSDACBA3F,"CA Toronto-King St., ON",20-Aug,21-Aug
+CLG-LTSD68E967,Alberta (WFH),19-Aug,21-Aug
+CLG-LTSDE61CA6,Alberta (WFH),19-Aug,21-Aug
+CLG-LTSDECA09F,Alberta (WFH),19-Aug,21-Aug
+VCX-LTSD1D8AA1,"Victoria, BC",19-Aug,21-Aug
+KST-LTSD115821,Ontario (WFH),19-Aug,21-Aug
+KST-LTSD561202,Ontario (WFH),20-Aug,21-Aug
+KST-LTSDEE612E,Ontario (WFH),20-Aug,21-Aug
+BMT-LTSDA46AF0,Ontario (WFH),20-Aug,21-Aug
+KST-LTSDCDCFCD,Ontario (WFH),20-Aug,21-Aug
+ASM-LTSD1AE516,"L'Assomption, QC",20-Aug,21-Aug
+QBC-LTSD8D974F,Quebec (WFH),19-Aug,21-Aug
+ASM-LTSDA30F44,Quebec (WFH),20-Aug,21-Aug
+ASM-LTSD3A3AA6,Quebec (WFH),20-Aug,21-Aug
+QBC-LTSD60F16F,Quebec (WFH),19-Aug,21-Aug
+ASM-LTSD4BEE49,Quebec (WFH),20-Aug,21-Aug
+ASM-LTSD4924EF,Quebec (WFH),20-Aug,21-Aug
+BMT-LTSD7CE829,"Brampton, ON",20-Aug,26-Aug
+BMT-LTSDBB707D,"Brampton, ON",20-Aug,26-Aug
+BMT-LTSDC8B3E5 ,"Brampton, ON",20-Aug,26-Aug
+BMT-LTSD932339,"Brampton, ON",20-Aug,26-Aug
+BMT-LTSDC59991,"Brampton, ON",20-Aug,26-Aug
+BMT-LTSD7CAC9D,"Brampton, ON",20-Aug,26-Aug
+BMT-LTSDE83AD8,"Brampton, ON",20-Aug,26-Aug
+BMT-LTSD201D50,"Brampton, ON",20-Aug,26-Aug
+BMT-LTSDB7B9CA,"Brampton, ON",20-Aug,26-Aug
+CLG-LTSDA4E170,"Calgary, AB",20-Aug,26-Aug
+CLG-LTSDAF628B,"Calgary, AB",20-Aug,26-Aug
+CLG-LTSDE5761E,"Calgary, AB",20-Aug,26-Aug
+CLG-LTSD272FCA,"Calgary, AB",20-Aug,26-Aug
+CLG-LTSD82BA05,"Calgary, AB",20-Aug,26-Aug
+CLG-LTSD5DAD2D,"Calgary, AB",20-Aug,26-Aug
+KST-LTSDC20BE0,Ontario (WFH),20-Aug,26-Aug
+KST-LTSD09EF70,Ontario (WFH),20-Aug,26-Aug
+KST-LTSDF91FCD,Ontario (WFH),20-Aug,26-Aug
+VCR-LTSD1903A1,"Richmond Field Op, BC",20-Aug,26-Aug
+WST-LTSDC96917,"Weston, ON",20-Aug,26-Aug
+WST-LTSD7B1361,"Weston, ON",20-Aug,26-Aug
+WST-LTSD5219DC,"Weston, ON",20-Aug,26-Aug
+WST-LTSDF4BDF8,"Weston, ON",20-Aug,26-Aug
+WST-LTSDA49779,"Weston, ON",20-Aug,26-Aug
+WST-LTSDB53FCD,"Weston, ON",20-Aug,26-Aug
+WST-LTSDC0EDC2,"Weston, ON",20-Aug,26-Aug
+WST-LTSDCFE408,"Weston, ON",20-Aug,26-Aug
+WST-LTSD5F42C3,"Weston, ON",20-Aug,26-Aug
+BMT-LTSDA6E733,"Brampton, ON",20-Aug,26-Aug
+BMT-LTSDC64FBE,"Brampton, ON",20-Aug,26-Aug
+BMT-LTSDDBA0AD,"Brampton, ON",20-Aug,26-Aug
+BMT-LTSDDFB0AF,"Brampton, ON",20-Aug,26-Aug
+BMT-LTSDB870CC,"Brampton, ON",20-Aug,26-Aug
+BMT-LTSD4E2F53,"Brampton, ON",20-Aug,26-Aug
+BMT-LTSDDF3307,"Brampton, ON",20-Aug,26-Aug
+BMT-LTSD195DC1,"Brampton, ON",20-Aug,26-Aug
+KST-LTSD9FC1B9,"CA Toronto-King St., ON",20-Aug,26-Aug
+VCR-LTSDA81696,"Richmond Field Op, BC",20-Aug,26-Aug
+VCR-LTSDEB0686,"Richmond Field Op, BC",20-Aug,26-Aug
+VCR-LTSD3788DF,"Richmond Field Op, BC",20-Aug,26-Aug
+ASM-LTSD6A02BF,"L'Assomption, QC",21-Aug,26-Aug
+ASM-LTSD96EB71,Quebec (WFH),24-Aug,26-Aug
+KST-LTSD879080,Ontario (WFH),24-Aug,26-Aug
+KST-LTSD1EE4CE,Ontario (WFH),24-Aug,26-Aug
+KST-LTSD300DE7,Ontario (WFH),24-Aug,26-Aug
+KST-LTSD193DF3,Ontario (WFH),24-Aug,26-Aug
+KST-LTSDC718AA,Ontario (WFH),24-Aug,26-Aug
+KST-SDD3C06E,Ontario (WFH),24-Aug,28-Aug
+KST-SDAD6E33,Ontario (WFH),24-Aug,28-Aug
+KST-SDD45340,Ontario (WFH),24-Aug,28-Aug
+KST-SDBF3169,Ontario (WFH),24-Aug,28-Aug
+KST-SD9359A3,Ontario (WFH),24-Aug,28-Aug
+KST-SDE78FD9,Ontario (WFH),24-Aug,28-Aug
+KST-SDD4C622,Ontario (WFH),24-Aug,28-Aug
+KST-SD4A8B23,Ontario (WFH),24-Aug,28-Aug
+KST-SDF72B01,Ontario (WFH),25-Aug,28-Aug
+SKA-SD55D983,"Saskatoon, SK",25-Aug,28-Aug
+SKA-SDF7C5FD,Saskatchewan (WFH),25-Aug,28-Aug
+ASM-SD8E891D,Quebec (WFH),25-Aug,28-Aug
+BMT-SD591ABB,"Brampton, ON",25-Aug,28-Aug
+BMT-SD4C39E5,"Brampton, ON",25-Aug,28-Aug
+BMT-SDC376D9,"Brampton, ON",25-Aug,28-Aug
+BMT-SD2C6FB0,"Brampton, ON",25-Aug,28-Aug
+BMT-SD981442,"Brampton, ON",25-Aug,28-Aug
+BMT-SD67477E,"Brampton, ON",25-Aug,28-Aug
+BMT-SD349FF6,"Brampton, ON",25-Aug,28-Aug
+BMT-SD61C128,"Brampton, ON",25-Aug,28-Aug
+BMT-SDA6515D,"Brampton, ON",25-Aug,28-Aug
+BMT-SD2F9426,"Brampton, ON",25-Aug,28-Aug
+BMT-SDAACAA3,"Brampton, ON",25-Aug,28-Aug
+BMT-SD254457,"Brampton, ON",25-Aug,28-Aug
+BMT-SD747FAD,"Brampton, ON",25-Aug,28-Aug
+BMT-SD888316,"Brampton, ON",25-Aug,28-Aug
+BMT-SD031A2A,"Brampton, ON",25-Aug,28-Aug
+BMT-SDFBFD35,"Brampton, ON",25-Aug,28-Aug
+CLG-LTSDD99797,"Calgary, AB",28-Aug,31-Aug
+CLG-LTSD73F1C3,"Calgary, AB",28-Aug,31-Aug
+VCR-LTSD31A654,"Richmond Field Op, BC",28-Aug,31-Aug
+VCR-LTSD5F1453,"Richmond Field Op, BC",28-Aug,31-Aug
+KST-LTSD485284,"CA Toronto-King St., ON",28-Aug,31-Aug
+KST-LTSD8A7222,"CA Toronto-King St., ON",28-Aug,31-Aug
+KST-LTSD646D81,"CA Toronto-King St., ON",28-Aug,31-Aug
+KST-LTSD7543D2,Ontario (WFH),28-Aug,31-Aug
+KST-LTSD1CD3AD,Ontario (WFH),28-Aug,31-Aug
+KST-LTSD5E21BA,Ontario (WFH),28-Aug,31-Aug
+KST-LTSD785EB1,Ontario (WFH),28-Aug,31-Aug
+KST-LTSD35A342,Ontario (WFH),28-Aug,31-Aug
+KST-LTSD07065C,Ontario (WFH),31-Aug,02-Sept
+KST-LTSDB16283,Ontario (WFH),31-Aug,02-Sept
+KST-LTSDB0609E,"London, ON",31-Aug,02-Sept
+SJN-LTSD862ED1,"St. John's, NL",01-Sept,04-Sept
+SJN-LTSD0D6623,"St. John's, NL",01-Sept,04-Sept
+SJN-LTSD51BA8B,"St. John's, NL",01-Sept,04-Sept
+BMT-LTSDB7D1E7,"Brampton, ON",01-Sept,04-Sept
+KST-LTSD3AE1CC,Ontario (WFH),01-Sept,04-Sept
+KST-LTSD636DF5,Ontario (WFH),01-Sept,04-Sept
+KST-LTSD393C04,"CA Toronto-King St., ON",01-Sept,04-Sept
+VCR-LTSD067FD3,"Richmond Field Op, BC",09-Sept,08-Sept
+VCR-LTSD4BADD6,"Richmond Field Op, BC",09-Sept,08-Sept
+WST-LTSD096AF2,"Weston, ON",09-Sept,10-Sept
+WST-LTSD23181E,"Weston, ON",09-Sept,10-Sept
+WST-LTSD1D493D,"Weston, ON",09-Sept,10-Sept
+WST-LTSD1A39B0,"Weston, ON",09-Sept,11-Sept
+WST-LTSD10A09D,"Weston, ON",09-Sept,11-Sept
+VCR-LTSD47A472,"Richmond Field Op, BC",09-Sept,11-Sept
+VCR-LTSDC4D99F,"Richmond Field Op, BC",09-Sept,11-Sept
+RCM-LTSDC4641E,"Richmond Prod, BC",09-Sept,11-Sept
+RCM-LTSD448A81,"Richmond Prod, BC",09-Sept,11-Sept
+RCM-LTSD0B2832,"Richmond Prod, BC",09-Sept,11-Sept
+BMT-LTSD3F9CAD,"Brampton, ON",09-Sept,11-Sept
+BMT-LTSD5EB0E8,"Brampton, ON",09-Sept,11-Sept
+BMT-LTSDCCC535,"Brampton, ON",09-Sept,11-Sept
+BMT-LTSD62F6C4,"Brampton, ON",09-Sept,11-Sept
+BMT-LTSDDE13A8,"Brampton, ON",09-Sept,11-Sept
+BMT-LTSD521FDA,"Brampton, ON",09-Sept,11-Sept
+BMT-LTSDC886BE,"Brampton, ON",09-Sept,11-Sept
+BMT-LTSD9586BF,"Brampton, ON",09-Sept,11-Sept
+BMT-LTSD2A5C61,"Brampton, ON",09-Sept,11-Sept
+BMT-LTSD75027C,"Brampton, ON",09-Sept,11-Sept
+BMT-LTSD5A26D3,"Brampton, ON",10-Sept,11-Sept
+BMT-LTSDDD2B78,"Brampton, ON",10-Sept,11-Sept
+OWS-LTSD661C3C,"Owen Sound, ON",10-Sept,11-Sept
+BMT-LTSDAE0999,Ontario (WFH),10-Sept,11-Sept
+BMT-LTSD1D9B70,"Brampton, ON",11-Sept,11-Sept
+BMT-LTSD75E582,"Brampton, ON",15-Sept,18-Sept
+BMT-LTSD72D5C8,"Brampton, ON",15-Sept,18-Sept
+BMT-LTSD691656,"Brampton, ON",15-Sept,18-Sept
+BMT-LTSD023238,"Brampton, ON",15-Sept,18-Sept
+BMT-LTSD9996B6,"Brampton, ON",15-Sept,18-Sept
+BMT-LTSDBD7A57,"Brampton, ON",15-Sept,18-Sept
+BMT-LTSDA3C6D1,"Brampton, ON",15-Sept,18-Sept
+BMT-LTSD3C426B,"Brampton, ON",15-Sept,18-Sept
+RCM-LTSD7834AD,"Richmond Prod, BC",15-Sept,18-Sept
+KST-LTSDF74A6C,"CA Toronto-King St., ON",15-Sept,18-Sept
+CLG-LTSD8768EC,"Calgary, AB",15-Sept,18-Sept
+KST-LTSD70551B,"CA Toronto-King St., ON",15-Sept,18-Sept
+KST-LTSD5E2A63,Ontario (WFH),17-Sept,18-Sept
+BMT-LTSD1D990F,"Brampton, ON",17-Sept,18-Sept
+KST-LTSD99043A ,"CA Toronto-King St., ON",23-Sept,
+WST-LTSD8A185A,British Columbia (WFH),26-Jun,03-Jul-26
+KST-LTSD5F42C3,Ontario (WFH),20-Oct,20-Oct
+WST-LTSD4B68EC,"Weston, ON",,

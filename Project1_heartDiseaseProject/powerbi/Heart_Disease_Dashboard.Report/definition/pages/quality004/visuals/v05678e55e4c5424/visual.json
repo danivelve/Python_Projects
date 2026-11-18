@@ -1,0 +1,90 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "v05678e55e4c5424",
+  "position": {
+    "x": 16,
+    "y": 460,
+    "z": 7000,
+    "height": 244,
+    "width": 720
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "KEY INSIGHT  ",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#C8102E",
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "The raw file's outcome label was reversed: target = 1 meant NO heart disease. Category counts were matched one-to-one with the original UCI Cleveland file, which also showed that chest-pain, ECG, slope and thallium codes were mis-documented, and that ca = 4 and thal = 0 were missing values. All were corrected before analysis. Read as documented, the data would have said 75% of women had heart disease; corrected, it is 25%.",
+                    "textStyle": {
+                      "fontSize": "11pt",
+                      "color": "#3D0B17"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#FCEBEE'"
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "visualHeader": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

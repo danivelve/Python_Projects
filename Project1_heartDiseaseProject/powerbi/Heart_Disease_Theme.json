@@ -1,0 +1,33 @@
+{
+  "name": "Cardio",
+  "dataColors": ["#C8102E", "#5B7083", "#8C1C2E", "#E0707F", "#A9B8C4", "#2E7D5B", "#F2A7A7", "#3D0B17"],
+  "background": "#FFFFFF",
+  "foreground": "#1F1A1C",
+  "tableAccent": "#C8102E",
+  "good": "#2E7D5B",
+  "neutral": "#A9B8C4",
+  "bad": "#C8102E",
+  "maximum": "#C8102E",
+  "center": "#F2A7A7",
+  "minimum": "#FFFFFF",
+  "textClasses": {
+    "title": { "fontFace": "Segoe UI Semibold", "fontSize": 14, "color": "#3D0B17" },
+    "header": { "fontFace": "Segoe UI Semibold", "fontSize": 12, "color": "#3D0B17" },
+    "label": { "fontFace": "Segoe UI", "fontSize": 10, "color": "#595959" },
+    "callout": { "fontFace": "Segoe UI Semibold", "fontSize": 28, "color": "#3D0B17" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#E4E1E2" } }, "radius": 8 }],
+        "dropShadow": [{ "show": false }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F5F2F3" } }, "transparency": 0 }]
+      }
+    }
+  }
+}

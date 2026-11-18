@@ -1,0 +1,48 @@
+table data_quality_log
+	lineageTag: ec03ba27-2e69-4163-9c44-6761e96674ee
+
+	column issue
+		dataType: string
+		lineageTag: b32cae71-fcc6-443f-9deb-3e6965192134
+		summarizeBy: none
+		sourceColumn: issue
+
+		annotation SummarizationSetBy = Automatic
+
+	column rows_affected
+		dataType: int64
+		formatString: 0
+		lineageTag: 2286552b-4225-4720-82b4-37e170fefd8c
+		summarizeBy: sum
+		sourceColumn: rows_affected
+
+		annotation SummarizationSetBy = Automatic
+
+	column action
+		dataType: string
+		lineageTag: bde69111-5e0d-4d31-a1d8-6d618c937ace
+		summarizeBy: none
+		sourceColumn: action
+
+		annotation SummarizationSetBy = Automatic
+
+	column note
+		dataType: string
+		lineageTag: c7565659-1ebf-45ed-a755-404ca4e5cb76
+		summarizeBy: none
+		sourceColumn: note
+
+		annotation SummarizationSetBy = Automatic
+
+	partition data_quality_log = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "data_quality_log.csv"), [Delimiter = ",", Columns = 4, Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"issue", type text}, {"rows_affected", Int64.Type}, {"action", type text}, {"note", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

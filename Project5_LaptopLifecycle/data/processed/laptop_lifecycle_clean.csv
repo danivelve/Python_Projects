@@ -1,0 +1,519 @@
+user_id,location,province,wfh,email_sent,laptop_received,keyed,shipped,added_to_teams,asset_panda_updated,groups_done,shipment_tracked,return_label,old_laptop_closed,teamviewer_removed,teamviewer_date
+EMP0001,"Brampton, ON",ON,False,True,True,2026-06-17,2026-06-19,True,True,True,True,False,False,True,2026-07-29
+EMP0002,"Brampton, ON",ON,False,True,True,2026-06-17,2026-06-19,True,True,True,True,False,False,True,2026-08-19
+EMP0003,"Brampton, ON",ON,False,True,True,2026-06-17,2026-06-19,True,True,True,True,False,False,True,2026-07-29
+EMP0004,"Brampton, ON",ON,False,True,True,2026-06-17,2026-06-19,True,True,True,True,False,False,True,2026-10-07
+EMP0005,"Brampton, ON",ON,False,True,True,2026-06-17,2026-06-19,True,True,True,True,False,False,True,2026-09-03
+EMP0006,"Brampton, ON",ON,False,True,True,2026-06-17,2026-06-19,True,True,True,True,False,False,True,2026-07-29
+EMP0007,"CA Toronto-King St., ON",ON,False,True,True,2026-06-18,2026-06-22,True,True,True,True,False,True,True,2026-07-29
+EMP0008,"CA Toronto-King St., ON",ON,False,True,True,2026-06-18,2026-06-22,True,True,True,True,False,True,True,2026-07-29
+EMP0009,"CA Toronto-King St., ON",ON,False,True,True,2026-06-18,2026-06-22,True,True,True,True,False,True,True,2026-07-29
+EMP0010,"CA Toronto-King St., ON",ON,False,True,True,2026-06-18,2026-06-22,True,True,True,True,False,True,True,2026-07-29
+EMP0011,"CA Toronto-King St., ON",ON,False,True,True,2026-06-18,2026-06-22,True,True,True,True,False,True,True,2026-07-29
+EMP0012,Ontario (WFH),ON,True,True,True,2026-06-18,2026-06-22,True,True,True,True,True,True,True,2026-07-29
+EMP0013,Ontario (WFH),ON,True,True,True,2026-06-18,2026-06-22,True,True,True,True,True,True,True,2026-07-29
+EMP0014,Ontario (WFH),ON,True,True,True,2026-06-17,2026-06-19,True,True,True,True,False,False,True,2026-07-29
+EMP0015,Ontario (WFH),ON,True,True,True,2026-06-18,2026-06-22,True,True,True,True,True,True,True,2026-08-12
+EMP0016,Ontario (WFH),ON,True,True,True,2026-06-18,2026-06-22,True,True,True,True,True,True,True,2026-07-29
+EMP0017,Ontario (WFH),ON,True,True,True,2026-06-18,2026-06-22,True,True,True,True,True,True,True,2026-08-12
+EMP0018,Quebec (WFH),QC,True,True,True,2026-06-18,2026-06-22,True,True,True,True,True,True,True,2026-07-29
+EMP0019,"Halifax, NS",NS,False,True,True,2026-06-18,2026-06-22,True,True,True,True,True,True,True,2026-07-29
+EMP0020,"Saskatoon, SK",SK,False,True,True,2026-06-18,2026-06-22,True,True,True,True,True,False,True,2026-07-29
+EMP0021,"Edmonton, AB",AB,False,True,True,2026-06-18,2026-06-22,True,True,True,True,True,True,True,2026-07-29
+EMP0022,"Edmonton, AB",AB,False,True,True,2026-06-18,2026-06-22,True,True,True,True,True,False,True,2026-07-29
+EMP0023,"Brampton, ON",ON,False,True,True,2026-06-17,2026-06-22,True,True,True,True,False,False,True,2026-07-29
+EMP0024,"Weston, ON",ON,False,True,True,2026-06-18,2026-06-22,True,True,True,True,True,True,True,2026-09-03
+EMP0025,"Brampton, ON",ON,False,True,True,2026-06-22,2026-06-23,True,True,True,True,False,False,True,2026-07-29
+EMP0026,"Brampton, ON",ON,False,True,True,2026-06-22,2026-06-23,True,True,True,True,False,False,True,2026-07-29
+EMP0027,"Brampton, ON",ON,False,True,True,2026-06-22,2026-06-23,True,True,True,True,False,False,True,2026-07-29
+EMP0028,"Brampton, ON",ON,False,True,True,2026-06-22,2026-06-23,True,True,True,True,False,False,True,2026-07-29
+EMP0029,"Brampton, ON",ON,False,True,True,2026-06-22,2026-06-23,True,True,True,True,False,False,True,2026-07-29
+EMP0030,"Brampton, ON",ON,False,True,True,2026-06-22,2026-06-23,True,True,True,True,False,False,True,2026-07-29
+EMP0031,"Brampton, ON",ON,False,True,True,2026-06-22,2026-06-23,True,True,True,True,False,False,True,2026-07-29
+EMP0032,"Brampton, ON",ON,False,True,True,2026-06-22,2026-06-23,True,True,True,True,False,False,True,2026-07-29
+EMP0033,"Brampton, ON",ON,False,True,True,2026-06-22,2026-06-23,True,True,True,True,False,False,True,2026-07-29
+EMP0034,"Brampton, ON",ON,False,True,True,2026-06-22,2026-06-23,True,True,True,True,False,False,True,2026-07-29
+EMP0035,"Brampton, ON",ON,False,True,True,2026-06-22,2026-06-23,True,True,True,True,False,False,True,2026-07-29
+EMP0036,"Brampton, ON",ON,False,True,True,2026-06-22,2026-06-23,True,True,True,True,False,True,True,2026-07-29
+EMP0037,"Brampton, ON",ON,False,True,True,2026-06-22,2026-06-23,True,True,True,True,False,False,True,2026-07-29
+EMP0038,"L'Assomption, QC",QC,False,True,True,2026-06-22,2026-06-23,True,True,True,True,True,True,True,2026-08-19
+EMP0039,"Brampton, ON",ON,False,True,True,2026-06-25,2026-06-26,True,True,True,True,False,False,False,
+EMP0040,"Brampton, ON",ON,False,True,True,2026-06-25,2026-06-26,True,True,True,True,False,False,False,
+EMP0041,"Brampton, ON",ON,False,True,True,2026-06-25,2026-06-26,True,True,True,True,False,False,True,2026-10-14
+EMP0042,"Brampton, ON",ON,False,True,True,2026-06-25,2026-06-26,True,True,True,True,False,False,False,
+EMP0043,"Brampton, ON",ON,False,True,True,2026-06-25,2026-06-26,True,True,True,True,False,False,True,2026-10-14
+EMP0044,"Brampton, ON",ON,False,True,True,2026-06-25,2026-06-26,True,True,True,True,False,False,True,2026-07-29
+EMP0045,"Brampton, ON",ON,False,True,True,2026-06-25,2026-06-26,True,True,True,True,False,False,True,2026-07-29
+EMP0046,"Brampton, ON",ON,False,True,True,2026-06-25,2026-06-26,True,True,True,True,False,False,True,2026-09-03
+EMP0047,"Brampton, ON",ON,False,True,True,2026-06-25,2026-06-26,True,True,True,True,False,False,True,2026-07-29
+EMP0048,"Brampton, ON",ON,False,True,True,2026-06-25,2026-06-26,True,True,True,True,False,False,False,
+EMP0049,"Brampton, ON",ON,False,True,True,2026-06-25,2026-06-26,True,True,True,True,False,False,True,2026-08-12
+EMP0050,"Brampton, ON",ON,False,True,True,2026-06-25,2026-06-26,True,True,True,True,False,False,True,2026-07-29
+EMP0051,"Brampton, ON",ON,False,True,True,2026-06-25,2026-06-26,True,True,True,True,False,False,False,
+EMP0052,"Brampton, ON",ON,False,True,True,2026-06-25,2026-06-26,True,True,True,True,False,False,True,2026-07-29
+EMP0053,"Brampton, ON",ON,False,True,True,2026-06-25,2026-06-26,True,True,True,True,False,False,True,2026-07-29
+EMP0054,"Brampton, ON",ON,False,True,True,2026-06-25,2026-06-26,True,True,True,True,False,False,True,2026-07-29
+EMP0055,"Calgary, AB",AB,False,True,True,2026-06-25,2026-06-26,True,True,False,True,False,True,True,2026-07-29
+EMP0056,"Calgary, AB",AB,False,True,True,2026-06-25,2026-06-26,True,True,False,True,False,True,True,2026-07-29
+EMP0057,"Calgary, AB",AB,False,True,True,2026-06-25,2026-06-26,True,True,True,True,False,True,True,2026-07-29
+EMP0058,Alberta (WFH),AB,True,True,True,2026-06-25,2026-06-26,True,True,True,True,False,False,True,2026-09-09
+EMP0059,"Blackfoot, AB",AB,False,True,True,2026-06-26,2026-07-03,True,True,True,True,True,True,True,2026-07-29
+EMP0060,"Richmond Prod, BC",BC,False,True,True,2026-06-26,2026-07-03,True,True,True,True,False,False,True,2026-08-26
+EMP0061,"Richmond Prod, BC",BC,False,True,True,2026-06-26,2026-07-03,True,True,True,True,False,False,True,2026-08-12
+EMP0062,"Weston, ON",ON,False,True,True,2026-06-26,2026-07-03,True,True,True,True,True,True,True,2026-07-29
+EMP0063,"Weston, ON",ON,False,True,True,2026-06-26,2026-07-03,True,True,True,True,True,True,True,2026-07-29
+EMP0064,"Weston, ON",ON,False,True,True,2026-06-26,2026-07-03,True,True,True,True,True,True,True,2026-09-03
+EMP0065,"Brampton, ON",ON,False,True,True,2026-06-29,2026-07-03,True,True,True,True,False,False,True,2026-07-29
+EMP0066,"Quebec City, QC",QC,False,True,True,2026-06-29,2026-07-03,True,True,True,True,True,True,True,2026-07-29
+EMP0067,"Quebec City, QC",QC,False,True,True,2026-06-29,2026-07-03,True,True,True,True,True,True,True,2026-07-29
+EMP0068,"Quebec City, QC",QC,False,True,True,2026-06-29,2026-07-03,True,True,True,True,True,True,True,2026-09-03
+EMP0069,"Quebec City, QC",QC,False,True,True,2026-06-29,2026-07-03,True,True,True,True,True,True,True,2026-07-29
+EMP0070,"Quebec City, QC",QC,False,True,True,2026-06-29,2026-07-03,True,True,True,True,True,True,True,2026-07-29
+EMP0071,"Quebec City, QC",QC,False,True,True,2026-06-29,2026-07-03,True,True,True,True,True,True,True,2026-08-19
+EMP0072,"Quebec City, QC",QC,False,True,True,2026-06-29,2026-07-03,True,True,True,True,True,True,True,2026-07-29
+EMP0073,"Quebec City, QC",QC,False,True,True,2026-06-29,2026-07-03,True,True,True,True,True,True,True,2026-10-14
+EMP0074,"Quebec City, QC",QC,False,True,True,2026-06-29,2026-07-03,True,True,True,True,True,True,True,2026-07-29
+EMP0075,Ontario (WFH),ON,True,True,True,2026-07-03,2026-07-06,True,True,True,True,True,True,True,2026-08-26
+EMP0076,Ontario (WFH),ON,True,True,True,2026-07-03,2026-07-06,True,True,True,True,True,True,True,2026-07-29
+EMP0077,Ontario (WFH),ON,True,True,True,2026-07-03,2026-07-06,True,True,True,True,True,True,True,2026-07-29
+EMP0078,Ontario (WFH),ON,True,True,True,2026-07-03,2026-07-06,True,True,True,True,True,False,True,2026-10-21
+EMP0079,"Brampton, ON",ON,False,True,True,2026-07-03,2026-07-06,True,True,True,True,False,True,True,2026-09-16
+EMP0080,"Brampton, ON",ON,False,True,True,2026-07-03,2026-07-06,True,True,True,True,False,False,True,2026-07-29
+EMP0081,Ontario (WFH),ON,True,True,True,2026-07-04,2026-07-08,True,True,True,True,True,True,True,2026-07-29
+EMP0082,"Hamilton, ON",ON,False,True,True,2026-07-08,2026-07-10,True,True,True,True,True,True,True,2026-07-29
+EMP0083,"Hamilton, ON",ON,False,True,True,2026-07-08,2026-07-10,True,True,True,True,True,True,True,2026-09-09
+EMP0084,"Kingston, ON",ON,False,True,True,2026-07-08,2026-07-10,True,True,True,True,True,True,True,2026-07-29
+EMP0085,"Kingston, ON",ON,False,True,True,2026-07-08,2026-07-10,True,True,True,True,True,True,False,
+EMP0086,"Barrie, ON",ON,False,True,True,2026-07-08,2026-07-10,True,True,True,True,True,True,True,2026-07-29
+EMP0087,"Brampton, ON",ON,False,True,True,2026-07-08,2026-07-10,True,True,True,True,False,False,True,2026-07-29
+EMP0088,"CA Toronto-King St., ON",ON,False,True,True,2026-07-08,2026-07-10,True,True,True,True,False,True,True,2026-09-16
+EMP0089,"CA Toronto-King St., ON",ON,False,True,True,2026-07-08,2026-07-10,True,True,True,True,False,False,True,2026-08-12
+EMP0090,"CA Toronto-King St., ON",ON,False,True,True,2026-07-08,2026-07-10,True,True,True,True,False,False,False,
+EMP0091,"CA Toronto-King St., ON",ON,False,True,True,2026-07-08,2026-07-10,True,True,True,True,False,True,True,2026-08-12
+EMP0092,"CA Toronto-King St., ON",ON,False,True,True,2026-07-07,2026-07-08,True,True,True,True,False,True,True,2026-08-12
+EMP0093,"CA Toronto-King St., ON",ON,False,True,True,2026-07-08,2026-07-10,True,True,True,True,False,True,True,2026-07-29
+EMP0094,"CA Toronto-King St., ON",ON,False,True,True,2026-07-08,2026-07-10,True,True,True,True,False,True,True,2026-08-26
+EMP0095,"CA Toronto-King St., ON",ON,False,True,True,2026-07-08,2026-07-10,True,True,True,True,False,True,True,2026-09-30
+EMP0096,Ontario (WFH),ON,True,True,True,2026-07-07,2026-07-08,True,True,True,True,True,False,True,2026-08-05
+EMP0097,Ontario (WFH),ON,True,True,True,2026-07-09,2026-07-10,True,True,True,True,True,True,True,2026-07-29
+EMP0098,Ontario (WFH),ON,True,True,True,2026-07-07,2026-07-08,True,True,True,True,True,False,True,2026-09-30
+EMP0099,Ontario (WFH),ON,True,True,True,2026-07-07,2026-07-08,True,True,True,True,True,False,True,2026-08-05
+EMP0100,Ontario (WFH),ON,True,True,True,2026-07-07,2026-07-10,True,True,True,True,True,True,True,2026-07-29
+EMP0101,Ontario (WFH),ON,True,True,True,2026-07-08,2026-07-10,True,True,True,True,True,False,True,2026-07-29
+EMP0102,Ontario (WFH),ON,True,True,True,2026-07-07,2026-07-08,True,True,True,True,True,False,True,2026-07-29
+EMP0103,Ontario (WFH),ON,True,True,True,2026-07-07,2026-07-08,True,True,True,True,True,True,True,2026-09-03
+EMP0104,"L'Assomption, QC",QC,False,True,True,2026-07-07,2026-07-08,True,True,True,True,True,True,True,2026-07-29
+EMP0105,"L'Assomption, QC",QC,False,True,True,2026-07-09,2026-07-10,True,True,True,True,True,True,True,2026-07-29
+EMP0106,Alberta (WFH),AB,True,True,True,2026-07-07,2026-07-08,True,True,True,True,True,False,True,2026-08-26
+EMP0107,"Edmonton, AB",AB,False,True,True,2026-07-07,2026-07-10,True,True,True,True,True,False,True,2026-08-12
+EMP0108,"Edmonton, AB",AB,False,True,True,2026-07-07,2026-07-10,True,True,True,True,True,False,True,2026-08-26
+EMP0109,"Edmonton, AB",AB,False,True,True,2026-07-07,2026-07-10,True,True,True,True,True,False,True,2026-08-12
+EMP0110,"Edmonton, AB",AB,False,True,True,2026-07-07,2026-07-10,True,True,True,True,True,False,True,2026-08-12
+EMP0111,"Edmonton, AB",AB,False,True,True,2026-07-07,2026-07-10,True,True,True,True,True,False,True,2026-08-05
+EMP0112,"Edmonton, AB",AB,False,True,True,2026-07-07,2026-07-10,True,True,True,True,True,False,True,2026-08-05
+EMP0113,"Prince George, BC",BC,False,True,True,2026-07-07,2026-07-10,True,True,True,True,True,False,True,2026-08-19
+EMP0114,"Prince George, BC",BC,False,True,True,2026-07-07,2026-07-10,True,True,True,True,True,False,True,2026-08-12
+EMP0115,Alberta (WFH),AB,True,True,True,2026-07-07,2026-07-10,True,True,True,True,True,False,True,2026-07-29
+EMP0116,Alberta (WFH),AB,True,True,True,2026-07-07,2026-07-10,True,True,True,True,True,False,True,2026-08-26
+EMP0117,"Calgary, AB",AB,False,True,True,2026-07-07,2026-07-08,True,True,True,True,True,False,True,2026-07-29
+EMP0118,British Columbia (WFH),BC,True,False,True,2026-07-08,2026-07-10,True,True,True,True,True,False,True,2026-08-19
+EMP0119,British Columbia (WFH),BC,True,False,True,2026-07-08,2026-07-10,True,True,True,True,True,False,True,2026-07-29
+EMP0120,"Richmond Field Op, BC",BC,False,False,True,2026-07-08,2026-07-10,True,True,True,True,True,False,True,2026-08-26
+EMP0121,British Columbia (WFH),BC,True,False,True,2026-07-08,2026-07-10,True,True,True,True,True,False,True,2026-07-29
+EMP0122,"Richmond Field Op, BC",BC,False,False,True,2026-07-14,2026-07-15,True,True,True,True,False,False,True,2026-08-26
+EMP0123,"Richmond Field Op, BC",BC,False,False,True,2026-07-10,2026-07-17,True,True,True,True,True,False,True,2026-08-12
+EMP0124,Ontario (WFH),ON,True,True,True,2026-07-10,2026-07-15,True,True,True,True,True,True,True,2026-08-05
+EMP0125,Vancouver,BC,False,False,True,2026-07-10,2026-07-15,True,True,True,True,True,False,True,2026-09-03
+EMP0126,"Ottawa, ON",ON,False,True,True,2026-07-10,2026-07-15,True,True,True,True,True,True,True,2026-07-29
+EMP0127,"Ottawa, ON",ON,False,True,True,2026-07-10,2026-07-15,True,True,True,True,True,True,True,2026-08-19
+EMP0128,"Ottawa, ON",ON,False,True,True,2026-07-10,2026-07-15,True,True,True,True,True,True,True,2026-07-29
+EMP0129,"Ottawa, ON",ON,False,True,True,2026-07-10,2026-07-15,True,True,True,True,True,True,True,2026-07-29
+EMP0130,"Ottawa, ON",ON,False,True,True,2026-07-10,2026-07-15,True,True,True,True,True,True,True,2026-08-26
+EMP0131,"Ottawa, ON",ON,False,True,True,2026-07-10,2026-07-15,True,True,True,True,True,True,True,2026-07-29
+EMP0132,"Ottawa, ON",ON,False,True,True,2026-07-10,2026-07-15,True,True,True,True,True,True,True,2026-07-29
+EMP0133,"Ottawa, ON",ON,False,True,True,2026-07-10,2026-07-15,True,True,True,True,True,True,True,2026-07-29
+EMP0134,"Ottawa, ON",ON,False,True,True,2026-07-10,2026-07-15,True,True,True,True,True,True,True,2026-08-12
+EMP0135,"Ottawa, ON",ON,False,True,True,2026-07-10,2026-07-15,True,True,True,True,True,True,True,2026-08-05
+EMP0136,"Winnipeg, MB",MB,False,True,True,2026-07-10,2026-07-15,True,True,True,True,True,False,True,2026-08-12
+EMP0137,"Winnipeg, MB",MB,False,True,True,2026-07-10,2026-07-15,True,True,True,True,True,False,True,2026-08-12
+EMP0138,"Winnipeg, MB",MB,False,True,True,2026-07-10,2026-07-15,True,True,True,True,True,False,True,2026-08-12
+EMP0139,"Winnipeg, MB",MB,False,True,True,2026-07-10,2026-07-15,True,True,True,True,True,False,True,2026-08-12
+EMP0140,"Winnipeg, MB",MB,False,True,True,2026-07-10,2026-07-15,True,True,True,True,True,False,True,2026-08-12
+EMP0141,"Winnipeg, MB",MB,False,True,True,2026-07-10,2026-07-15,True,True,True,True,True,False,True,2026-08-12
+EMP0142,"Winnipeg, MB",MB,False,True,True,2026-07-10,2026-07-15,True,True,True,True,True,False,True,2026-08-12
+EMP0143,"Winnipeg, MB",MB,False,True,True,2026-07-10,2026-07-15,True,True,True,True,True,False,True,2026-08-12
+EMP0144,"Winnipeg, MB",MB,False,True,True,2026-07-10,2026-07-15,True,True,True,True,True,False,True,2026-08-12
+EMP0145,"Winnipeg, MB",MB,False,True,True,2026-07-10,2026-07-15,True,True,True,True,True,False,True,2026-08-12
+EMP0146,"Winnipeg, MB",MB,False,True,True,2026-07-10,2026-07-15,True,True,True,True,True,False,True,2026-08-12
+EMP0147,"Hamilton, ON",ON,False,True,True,2026-07-15,2026-07-17,True,True,True,True,True,False,False,
+EMP0148,"Hamilton, ON",ON,False,True,True,2026-07-15,2026-07-17,True,True,True,True,True,False,False,
+EMP0149,"Hamilton, ON",ON,False,True,True,2026-07-15,2026-07-17,True,True,True,True,True,True,True,2026-08-05
+EMP0150,"Hamilton, ON",ON,False,True,True,2026-07-15,2026-07-17,True,True,True,True,True,True,True,2026-08-05
+EMP0151,"Hamilton, ON",ON,False,True,True,2026-07-15,2026-07-17,True,True,True,True,True,False,True,2026-09-09
+EMP0152,"Hamilton, ON",ON,False,True,True,2026-07-15,2026-07-17,True,True,True,True,True,True,True,2026-08-05
+EMP0153,"Brampton, ON",ON,False,False,True,2026-07-14,2026-07-15,True,True,True,True,False,False,True,2026-09-03
+EMP0154,"Lachine, QC",QC,False,False,True,2026-07-14,2026-07-15,True,True,True,True,False,True,True,2026-08-12
+EMP0155,"Weston, ON",ON,False,False,True,2026-07-14,2026-07-15,True,True,True,True,True,True,True,2026-08-12
+EMP0156,"Kelowna, BC",BC,False,True,True,2026-07-15,2026-07-17,True,True,True,True,True,False,True,2026-08-19
+EMP0157,"Kelowna, BC",BC,False,True,True,2026-07-15,2026-07-17,True,True,True,True,True,False,True,2026-08-19
+EMP0158,"Kelowna, BC",BC,False,True,True,2026-07-15,2026-07-17,True,True,True,True,True,False,True,2026-08-19
+EMP0159,"Kelowna, BC",BC,False,True,True,2026-07-15,2026-07-17,True,True,True,True,True,False,True,2026-08-19
+EMP0160,"Kelowna, BC",BC,False,True,True,2026-07-15,2026-07-17,True,True,True,True,True,False,True,2026-08-19
+EMP0161,"Brampton, ON",ON,False,True,True,2026-07-16,2026-07-17,True,True,True,True,False,False,True,2026-07-29
+EMP0162,"Brampton, ON",ON,False,True,True,2026-07-16,2026-07-17,True,True,True,True,False,False,False,
+EMP0163,"Brampton, ON",ON,False,True,True,2026-07-16,2026-07-17,True,True,True,True,False,False,True,2026-09-03
+EMP0164,"Brampton, ON",ON,False,True,True,2026-07-16,2026-07-17,True,True,True,True,False,False,True,2026-10-14
+EMP0165,"Brampton, ON",ON,False,True,True,2026-07-16,2026-07-17,True,True,True,True,False,False,True,2026-09-03
+EMP0166,"Brampton, ON",ON,False,True,True,2026-07-16,2026-07-17,True,True,True,True,False,False,True,2026-07-29
+EMP0167,"Brampton, ON",ON,False,True,True,2026-07-16,2026-07-17,True,True,True,True,False,False,True,2026-08-26
+EMP0168,"Brampton, ON",ON,False,True,True,2026-07-16,2026-07-17,True,True,True,True,False,False,True,2026-08-26
+EMP0169,"Brampton, ON",ON,False,True,True,2026-07-16,2026-07-17,True,True,True,True,False,False,True,2026-10-14
+EMP0170,"Brampton, ON",ON,False,True,True,2026-07-16,2026-07-17,True,True,True,True,False,False,True,2026-08-05
+EMP0171,"Brampton, ON",ON,False,True,True,2026-07-16,2026-07-17,True,True,True,True,False,True,True,2026-09-24
+EMP0172,"Brampton, ON",ON,False,True,True,2026-07-16,2026-07-17,True,True,True,True,False,False,True,2026-07-29
+EMP0173,"Brampton, ON",ON,False,True,True,2026-07-16,2026-07-17,True,True,True,True,False,False,True,2026-08-19
+EMP0174,"Brampton, ON",ON,False,True,True,2026-07-16,2026-07-17,True,True,True,True,False,False,True,2026-08-26
+EMP0175,"Brampton, ON",ON,False,True,True,2026-07-16,2026-07-17,True,True,True,True,False,False,True,2026-08-05
+EMP0176,"Brampton, ON",ON,False,True,True,2026-07-16,2026-07-17,True,True,True,True,False,False,True,2026-08-05
+EMP0177,"Barrie, ON",ON,False,True,True,2026-07-16,2026-07-17,True,True,True,True,True,True,True,2026-08-26
+EMP0178,"Barrie, ON",ON,False,True,True,2026-07-16,2026-07-17,True,True,True,True,True,True,True,2026-08-12
+EMP0179,"Barrie, ON",ON,False,True,True,2026-07-16,2026-07-17,True,True,True,True,True,True,True,2026-08-05
+EMP0180,"Barrie, ON",ON,False,True,True,2026-07-16,2026-07-17,True,True,True,True,True,True,True,2026-08-19
+EMP0181,"Barrie, ON",ON,False,True,True,2026-07-16,2026-07-17,True,True,True,True,True,True,True,2026-08-05
+EMP0182,"Barrie, ON",ON,False,True,True,2026-07-16,2026-07-17,True,True,True,True,True,False,True,2026-08-19
+EMP0183,"Barrie, ON",ON,False,True,True,2026-07-16,2026-07-17,True,True,True,True,True,False,True,2026-10-21
+EMP0184,"CA Toronto-King St., ON",ON,False,False,True,2026-07-16,2026-07-17,True,True,True,True,False,False,True,2026-08-12
+EMP0185,"Weston, ON",ON,False,False,True,2026-07-19,2026-07-22,True,True,True,True,True,False,True,2026-10-07
+EMP0186,"Richmond Prod, BC",BC,False,False,True,2026-07-19,2026-07-22,False,True,True,True,False,False,True,2026-08-19
+EMP0187,"Richmond Prod, BC",BC,False,False,True,2026-07-19,2026-07-22,True,True,True,True,False,False,True,2026-08-05
+EMP0188,"Richmond Prod, BC",BC,False,False,True,2026-07-19,2026-07-22,False,True,True,True,False,False,True,2026-08-19
+EMP0189,"Richmond Prod, BC",BC,False,False,True,2026-07-19,2026-07-22,False,True,True,True,False,False,True,2026-08-26
+EMP0190,Manitoba (WFH),MB,True,True,True,2026-07-21,2026-07-24,True,True,True,True,True,False,True,2026-09-03
+EMP0191,"Weston, ON",ON,False,False,True,2026-07-21,2026-07-24,True,True,True,True,True,True,True,2026-08-12
+EMP0192,"L'Assomption, QC",QC,False,True,True,2026-07-22,2026-07-24,True,True,True,True,True,True,True,2026-08-19
+EMP0193,"L'Assomption, QC",QC,False,True,True,2026-07-22,2026-07-24,True,True,True,True,True,True,True,2026-08-26
+EMP0194,"L'Assomption, QC",QC,False,True,True,2026-07-22,2026-07-24,True,True,True,True,True,True,True,2026-08-19
+EMP0195,"L'Assomption, QC",QC,False,True,True,2026-07-22,2026-07-24,True,True,True,True,True,True,True,2026-08-19
+EMP0196,"L'Assomption, QC",QC,False,True,True,2026-07-22,2026-07-24,True,True,True,True,True,True,True,2026-08-26
+EMP0197,"L'Assomption, QC",QC,False,True,True,2026-07-22,2026-07-24,True,True,True,True,True,True,True,2026-09-24
+EMP0198,"L'Assomption, QC",QC,False,True,True,2026-07-22,2026-07-24,True,True,True,True,True,True,True,2026-08-26
+EMP0199,"L'Assomption, QC",QC,False,True,True,2026-07-22,2026-07-24,True,True,True,True,True,True,True,2026-09-09
+EMP0200,"L'Assomption, QC",QC,False,True,True,2026-07-22,2026-07-24,True,True,True,True,True,True,True,2026-08-19
+EMP0201,"L'Assomption, QC",QC,False,True,True,2026-07-22,2026-07-24,True,True,True,True,True,True,True,2026-08-19
+EMP0202,"Lachine, QC",QC,False,True,True,2026-07-22,2026-07-24,True,True,True,True,True,True,True,2026-09-24
+EMP0203,"Lachine, QC",QC,False,True,True,2026-07-22,2026-07-24,True,True,True,True,True,True,True,2026-09-24
+EMP0204,"Lachine, QC",QC,False,True,True,2026-07-22,2026-07-24,True,True,True,True,True,True,True,2026-08-19
+EMP0205,"Lachine, QC",QC,False,True,True,2026-07-22,2026-07-24,True,True,True,True,True,True,True,2026-09-30
+EMP0206,"Lachine, QC",QC,False,True,True,2026-07-22,2026-07-24,True,True,True,True,True,True,True,2026-08-19
+EMP0207,"Lachine, QC",QC,False,True,True,2026-07-22,2026-07-24,True,True,True,True,True,True,True,2026-09-03
+EMP0208,"Lachine, QC",QC,False,True,True,2026-07-22,2026-07-24,True,True,True,True,True,True,True,2026-08-19
+EMP0209,"Lachine, QC",QC,False,True,True,2026-07-22,2026-07-24,True,True,True,True,True,True,True,2026-08-19
+EMP0210,"Lachine, QC",QC,False,True,True,2026-07-22,2026-07-24,True,True,True,True,True,True,True,2026-08-19
+EMP0211,"Lachine, QC",QC,False,True,True,2026-07-22,2026-07-24,True,True,True,True,True,True,True,2026-08-19
+EMP0212,"Calgary, AB",AB,False,True,True,2026-07-21,2026-07-24,True,True,True,True,False,False,True,2026-08-19
+EMP0213,"Calgary, AB",AB,False,True,True,2026-07-21,2026-07-24,True,True,True,True,False,False,True,2026-08-26
+EMP0214,"Calgary, AB",AB,False,True,True,2026-07-21,2026-07-24,True,True,True,True,False,False,True,2026-08-12
+EMP0215,"Calgary, AB",AB,False,True,True,2026-07-21,2026-07-24,True,True,True,True,False,False,True,2026-09-03
+EMP0216,"Calgary, AB",AB,False,True,True,2026-07-21,2026-07-24,True,True,True,True,False,False,True,2026-10-07
+EMP0217,"Calgary, AB",AB,False,True,True,2026-07-21,2026-07-24,False,True,False,True,False,False,True,2026-08-12
+EMP0218,"Calgary, AB",AB,False,True,True,2026-07-21,2026-07-24,True,True,True,True,False,False,True,2026-08-26
+EMP0219,"Calgary, AB",AB,False,True,True,2026-07-21,2026-07-24,True,True,True,True,False,False,True,2026-09-03
+EMP0220,"Calgary, AB",AB,False,True,True,2026-07-21,2026-07-24,True,True,True,True,False,False,True,2026-08-26
+EMP0221,"Calgary, AB",AB,False,True,True,2026-07-21,2026-07-24,True,True,True,True,False,False,True,2026-09-03
+EMP0222,"Nanaimo, BC",BC,False,True,True,2026-07-21,2026-07-24,True,True,True,True,True,False,True,2026-08-26
+EMP0223,"Nanaimo, BC",BC,False,True,True,2026-07-21,2026-07-24,True,True,True,True,True,False,True,2026-08-26
+EMP0224,"Nanaimo, BC",BC,False,True,True,2026-07-21,2026-07-24,True,True,True,True,True,False,True,2026-08-26
+EMP0225,"Nanaimo, BC",BC,False,True,True,2026-07-21,2026-07-24,True,True,True,True,True,False,True,2026-08-12
+EMP0226,"Victoria, BC",BC,False,True,True,2026-07-21,2026-07-24,True,True,True,True,True,False,True,2026-08-26
+EMP0227,"Victoria, BC",BC,False,True,True,2026-07-21,2026-07-24,True,True,True,True,True,False,True,2026-08-26
+EMP0228,"Victoria, BC",BC,False,True,True,2026-07-21,2026-07-24,True,True,True,True,True,False,True,2026-08-26
+EMP0229,"Sudbury, ON",ON,False,True,True,2026-07-21,2026-07-24,True,True,True,True,True,True,True,2026-08-26
+EMP0230,"Sudbury, ON",ON,False,True,True,2026-07-21,2026-07-24,True,True,True,True,True,True,True,2026-08-26
+EMP0231,"Sudbury, ON",ON,False,True,True,2026-07-21,2026-07-24,True,True,True,True,True,True,True,2026-08-26
+EMP0232,"Sudbury, ON",ON,False,True,True,2026-07-21,2026-07-24,True,True,True,True,True,True,True,2026-08-26
+EMP0233,"Lethbridge, AB",AB,False,False,True,2026-07-22,2026-07-24,True,True,True,True,True,False,True,2026-09-03
+EMP0234,"Moncton, NB",NB,False,True,True,2026-07-22,2026-07-24,True,True,True,True,True,True,True,2026-08-26
+EMP0235,"Moncton, NB",NB,False,True,True,2026-07-22,2026-07-24,True,True,True,True,True,True,True,2026-08-19
+EMP0236,"Moncton, NB",NB,False,True,True,2026-07-22,2026-07-24,True,True,True,True,True,True,True,2026-09-30
+EMP0237,"Brampton, ON",ON,False,True,True,2026-07-23,2026-07-29,True,True,True,True,False,False,True,2026-08-05
+EMP0238,"CA Toronto-King St., ON",ON,False,True,True,2026-07-29,2026-07-29,True,True,True,True,False,True,True,2026-09-03
+EMP0239,"CA Toronto-King St., ON",ON,False,True,True,2026-07-29,2026-07-29,True,True,True,True,False,True,True,2026-09-16
+EMP0240,"CA Toronto-King St., ON",ON,False,True,True,2026-07-29,2026-07-29,True,True,True,True,False,True,True,2026-10-21
+EMP0241,"CA Toronto-King St., ON",ON,False,True,True,2026-07-29,2026-08-03,True,True,True,True,False,True,True,2026-09-03
+EMP0242,"CA Toronto-King St., ON",ON,False,True,True,2026-07-29,2026-08-03,True,True,True,True,False,True,True,2026-08-19
+EMP0243,"CA Toronto-King St., ON",ON,False,True,True,2026-07-29,2026-08-03,True,True,True,True,False,True,True,2026-08-19
+EMP0244,"CA Toronto-King St., ON",ON,False,True,True,2026-07-29,2026-08-03,True,True,True,True,False,True,True,2026-08-12
+EMP0245,"London, ON",ON,False,False,True,2026-07-29,2026-08-03,True,True,True,True,True,False,False,
+EMP0246,"London, ON",ON,False,False,True,2026-07-29,2026-08-03,True,True,True,True,True,False,False,
+EMP0247,"London, ON",ON,False,False,True,2026-07-29,2026-08-03,True,True,True,True,True,True,True,2026-09-09
+EMP0248,"London, ON",ON,False,False,True,2026-07-29,2026-08-03,True,True,True,True,True,True,True,2026-09-03
+EMP0249,"London, ON",ON,False,False,True,2026-07-29,2026-08-03,True,True,True,True,True,True,True,2026-09-03
+EMP0250,"London, ON",ON,False,False,True,2026-07-29,2026-08-03,True,True,True,True,True,True,True,2026-10-07
+EMP0251,"London, ON",ON,False,False,True,2026-07-29,2026-08-03,True,True,True,True,True,False,False,
+EMP0252,"London, ON",ON,False,False,True,2026-07-29,2026-08-03,True,True,True,True,True,False,False,
+EMP0253,"London, ON",ON,False,False,True,2026-07-29,2026-08-03,True,True,True,True,True,True,True,2026-09-24
+EMP0254,"Fredericton, NB",NB,False,True,True,2026-07-29,2026-08-03,True,True,True,True,True,True,True,2026-08-19
+EMP0255,"Halifax, NS",NS,False,True,True,2026-07-29,2026-08-03,True,True,True,True,True,True,False,
+EMP0256,"Halifax, NS",NS,False,True,True,2026-07-29,2026-08-03,True,True,True,True,True,True,True,2026-08-19
+EMP0257,"Halifax, NS",NS,False,True,True,2026-07-29,2026-08-03,True,True,True,True,True,True,True,2026-08-19
+EMP0258,"Halifax, NS",NS,False,True,True,2026-07-29,2026-08-03,True,True,True,True,True,True,True,2026-08-19
+EMP0259,"Calgary, AB",AB,False,False,True,2026-07-29,2026-08-03,True,True,True,True,False,False,True,2026-09-16
+EMP0260,"Calgary, AB",AB,False,False,True,2026-07-29,2026-08-03,True,True,True,True,False,False,True,2026-08-26
+EMP0261,"Calgary, AB",AB,False,False,True,2026-07-29,2026-08-03,True,True,True,True,False,False,True,2026-08-19
+EMP0262,"Thunder Bay, ON",ON,False,True,True,2026-07-29,2026-08-03,True,True,True,True,True,False,True,2026-09-09
+EMP0263,"Edmonton, AB",AB,False,False,True,2026-07-29,2026-08-03,True,True,True,True,True,False,True,2026-10-21
+EMP0264,"Edmonton, AB",AB,False,False,True,2026-07-29,2026-08-03,True,True,True,True,True,False,True,2026-08-26
+EMP0265,"Edmonton, AB",AB,False,False,True,2026-07-29,2026-08-03,True,True,True,True,True,True,True,2026-08-19
+EMP0266,"Edmonton, AB",AB,False,False,True,2026-07-29,2026-08-03,True,True,True,True,True,False,True,2026-09-03
+EMP0267,"Edmonton, AB",AB,False,False,True,2026-07-29,2026-08-03,True,True,True,True,True,False,False,
+EMP0268,"Edmonton, AB",AB,False,False,True,2026-07-29,2026-08-03,True,True,True,True,True,False,True,2026-09-16
+EMP0269,"Edmonton, AB",AB,False,False,True,2026-07-29,2026-08-03,True,True,True,True,True,True,True,2026-09-24
+EMP0270,"Edmonton, AB",AB,False,False,True,2026-07-29,2026-08-03,True,True,True,True,True,True,True,2026-08-26
+EMP0271,"Edmonton, AB",AB,False,True,True,2026-07-29,2026-08-05,True,True,True,True,True,False,True,2026-08-19
+EMP0272,"Weston, ON",ON,False,True,True,2026-07-29,2026-08-05,True,True,True,True,False,False,False,
+EMP0273,"CA Toronto-King St., ON",ON,False,True,True,2026-07-29,2026-08-05,True,True,True,True,False,True,True,2026-08-19
+EMP0274,"CA Toronto-King St., ON",ON,False,True,True,2026-07-29,2026-08-05,True,True,True,True,False,True,True,2026-08-19
+EMP0275,"Calgary, AB",AB,False,False,True,2026-07-29,2026-08-05,True,True,True,True,False,False,False,
+EMP0276,"Calgary, AB",AB,False,False,True,2026-07-29,2026-08-05,True,True,True,True,False,False,True,2026-08-19
+EMP0277,"Calgary, AB",AB,False,False,True,2026-07-29,2026-08-05,True,True,True,True,False,False,True,2026-08-19
+EMP0278,"Calgary, AB",AB,False,False,True,2026-07-29,2026-08-05,True,True,True,True,False,False,True,2026-08-26
+EMP0279,"Calgary, AB",AB,False,False,True,2026-07-29,2026-08-05,True,True,True,True,False,False,True,2026-08-26
+EMP0280,"Regina, SK",SK,False,True,True,2026-07-29,2026-08-05,True,True,True,True,True,False,True,2026-08-26
+EMP0281,"Regina, SK",SK,False,True,True,2026-07-29,2026-08-05,True,True,True,True,True,False,True,2026-08-26
+EMP0282,"Regina, SK",SK,False,True,True,2026-07-29,2026-08-05,True,True,True,True,True,False,True,2026-10-07
+EMP0283,"Regina, SK",SK,False,True,True,2026-07-29,2026-08-05,True,True,True,True,True,False,True,2026-09-24
+EMP0284,"Regina, SK",SK,False,True,True,2026-07-29,2026-08-05,True,True,True,True,True,False,True,2026-09-16
+EMP0285,"Saskatoon, SK",SK,False,True,True,2026-07-29,2026-08-05,True,True,True,True,True,False,True,2026-09-09
+EMP0286,"Saskatoon, SK",SK,False,True,True,2026-07-29,2026-08-05,True,True,True,True,True,False,True,2026-09-09
+EMP0287,"Saskatoon, SK",SK,False,True,True,2026-07-29,2026-08-05,True,True,True,True,True,False,True,2026-09-09
+EMP0288,"Saskatoon, SK",SK,False,True,True,2026-07-29,2026-08-05,True,True,True,True,True,False,True,2026-09-09
+EMP0289,"Saskatoon, SK",SK,False,True,True,2026-07-29,2026-08-05,True,True,True,True,True,False,True,2026-10-21
+EMP0290,"Richmond Field Op, BC",BC,False,True,True,2026-06-22,2026-06-23,True,True,False,True,True,True,True,2026-08-19
+EMP0291,"Richmond Field Op, BC",BC,False,False,True,2026-07-30,2026-08-05,True,True,True,True,False,False,True,2026-08-19
+EMP0292,"Richmond Field Op, BC",BC,False,False,True,2026-07-30,2026-08-05,True,True,True,True,False,False,True,2026-09-09
+EMP0293,"Richmond Field Op, BC",BC,False,False,True,2026-07-30,2026-08-05,True,True,True,True,False,False,True,2026-08-26
+EMP0294,"Richmond Field Op, BC",BC,False,False,True,2026-07-30,2026-08-05,True,True,True,True,False,False,True,2026-09-09
+EMP0295,"Richmond Field Op, BC",BC,False,False,True,2026-07-30,2026-08-05,True,True,True,True,False,False,True,2026-08-19
+EMP0296,"Richmond Field Op, BC",BC,False,False,True,2026-07-30,2026-08-05,True,True,True,True,False,False,True,2026-08-19
+EMP0297,Ontario (WFH),ON,True,False,True,2026-08-07,2026-08-12,True,True,True,True,False,True,True,2026-08-26
+EMP0298,"L'Assomption, QC",QC,False,False,True,2026-08-07,2026-08-12,True,True,True,True,False,True,True,2026-09-30
+EMP0299,"L'Assomption, QC",QC,False,False,True,2026-08-10,2026-08-14,True,True,True,True,True,True,True,2026-09-03
+EMP0300,"L'Assomption, QC",QC,False,False,True,2026-08-10,2026-08-14,True,True,True,True,True,True,True,2026-08-26
+EMP0301,"L'Assomption, QC",QC,False,False,True,2026-08-10,2026-08-14,True,True,True,True,True,True,True,2026-09-03
+EMP0302,"L'Assomption, QC",QC,False,False,True,2026-08-10,2026-08-14,True,True,True,True,True,True,True,2026-08-26
+EMP0303,"L'Assomption, QC",QC,False,False,True,2026-08-10,2026-08-14,True,True,True,True,True,True,True,2026-08-26
+EMP0304,"L'Assomption, QC",QC,False,False,True,2026-08-10,2026-08-14,True,True,True,True,True,True,True,2026-10-07
+EMP0305,"L'Assomption, QC",QC,False,False,True,2026-08-10,2026-08-14,True,True,True,True,True,True,True,2026-09-30
+EMP0306,"Trois Rivieres, QC",QC,False,False,True,2026-08-10,2026-08-14,True,True,True,True,True,True,True,2026-08-26
+EMP0307,"CA Toronto-King St., ON",ON,False,True,True,2026-08-12,2026-08-14,True,True,True,True,False,True,True,2026-09-09
+EMP0308,"Weston, ON",ON,False,True,True,2026-08-12,2026-08-14,True,True,True,True,False,True,True,2026-10-07
+EMP0309,"CA Toronto-King St., ON",ON,False,True,True,2026-08-12,2026-08-14,True,True,True,True,False,False,False,
+EMP0310,"CA Toronto-King St., ON",ON,False,True,True,2026-08-12,2026-08-14,True,True,True,True,False,False,False,
+EMP0311,"Weston, ON",ON,False,True,True,2026-08-12,2026-08-14,True,True,False,True,False,True,True,2026-10-07
+EMP0312,"Weston, ON",ON,False,True,True,2026-08-12,2026-08-14,True,True,True,True,False,False,False,
+EMP0313,"Brampton, ON",ON,False,True,True,2026-08-12,2026-08-14,True,True,True,True,False,False,True,2026-09-30
+EMP0314,"Brampton, ON",ON,False,True,True,2026-08-12,2026-08-14,True,True,True,True,False,False,True,2026-10-14
+EMP0315,"Brampton, ON",ON,False,True,True,2026-08-12,2026-08-14,True,True,True,True,False,False,False,
+EMP0316,"Brampton, ON",ON,False,True,True,2026-08-12,2026-08-14,True,True,True,True,False,False,True,2026-08-26
+EMP0317,"Brampton, ON",ON,False,True,True,2026-08-12,2026-08-14,True,True,True,True,False,False,True,2026-10-21
+EMP0318,"Brampton, ON",ON,False,True,True,2026-08-12,2026-08-14,True,True,True,True,False,False,True,2026-08-26
+EMP0319,"Brampton, ON",ON,False,True,True,2026-08-12,2026-08-14,True,True,True,True,False,False,True,2026-08-26
+EMP0320,"Brampton, ON",ON,False,True,True,2026-08-12,2026-08-14,True,True,True,True,False,False,True,2026-09-03
+EMP0321,"Brampton, ON",ON,False,True,True,2026-08-12,2026-08-14,True,True,True,True,False,False,False,
+EMP0322,"Brampton, ON",ON,False,True,True,2026-08-12,2026-08-14,True,True,True,True,False,False,False,
+EMP0323,"CA Toronto-King St., ON",ON,False,False,True,2026-08-10,2026-08-14,True,True,True,True,False,True,True,2026-09-09
+EMP0324,"Calgary, AB",AB,False,False,True,2026-08-12,2026-08-14,True,True,True,True,False,False,True,2026-10-21
+EMP0325,"Calgary, AB",AB,False,False,True,2026-08-12,2026-08-14,True,True,True,True,False,False,True,2026-10-07
+EMP0326,Nova Scotia (WFH),NS,True,True,True,2026-08-12,2026-08-14,True,True,True,True,True,True,True,2026-10-21
+EMP0327,"Prince Edward Island, PE",PE,False,False,True,2026-08-10,2026-08-14,True,True,True,True,True,True,True,2026-10-14
+EMP0328,"Richmond Prod, BC",BC,False,False,True,2026-08-10,2026-08-14,True,True,True,True,False,False,True,2026-09-30
+EMP0329,"Richmond Prod, BC",BC,False,False,True,2026-08-10,2026-08-14,True,True,True,True,False,False,True,2026-09-30
+EMP0330,"Richmond Prod, BC",BC,False,False,True,2026-08-10,2026-08-14,True,True,True,True,False,False,True,2026-09-09
+EMP0331,"Richmond Prod, BC",BC,False,False,True,2026-08-10,2026-08-14,True,True,True,True,False,False,True,2026-09-09
+EMP0332,"Richmond Prod, BC",BC,False,False,True,2026-08-10,2026-08-14,True,True,True,True,False,False,True,2026-09-09
+EMP0333,"Richmond Prod, BC",BC,False,False,True,2026-08-10,2026-08-14,True,True,True,True,False,False,True,2026-09-30
+EMP0334,"Richmond Prod, BC",BC,False,False,True,2026-08-10,2026-08-14,True,True,True,True,False,False,True,2026-09-30
+EMP0335,"Richmond Prod, BC",BC,False,False,True,2026-08-10,2026-08-14,True,True,True,True,False,False,True,2026-09-09
+EMP0336,"Richmond Prod, BC",BC,False,False,True,2026-08-10,2026-08-14,True,True,True,True,False,False,True,2026-09-09
+EMP0337,"Richmond Field Op, BC",BC,False,False,True,,2026-08-14,True,True,True,True,False,False,True,2026-09-24
+EMP0338,"Brandon, MB",MB,False,False,True,2026-08-12,2026-08-14,True,True,True,True,True,False,False,
+EMP0339,Ontario (WFH),ON,True,True,True,2026-08-12,2026-08-19,True,True,True,True,False,False,True,2026-09-03
+EMP0340,"Brampton, ON",ON,False,True,True,2026-08-12,2026-08-19,True,True,True,True,False,False,True,2026-09-03
+EMP0341,New Brunswick (WFH),NB,True,True,True,2026-08-13,2026-08-19,True,True,True,True,True,True,True,2026-09-03
+EMP0342,"CA Toronto-King St., ON",ON,False,True,True,2026-08-13,2026-08-19,True,True,True,True,False,True,True,2026-10-07
+EMP0343,"CA Toronto-King St., ON",ON,False,True,True,2026-08-13,2026-08-19,True,True,True,True,False,True,True,2026-09-03
+EMP0344,"Granby, QC",QC,False,False,True,2026-08-18,2026-08-18,True,True,True,False,False,True,True,2026-09-24
+EMP0345,"Granby, QC",QC,False,False,True,2026-08-18,2026-08-18,True,True,True,False,True,True,True,2026-10-21
+EMP0346,"Calgary, AB",AB,False,False,True,2026-08-12,2026-08-14,True,True,True,True,False,False,True,2026-09-16
+EMP0347,"CA Toronto-King St., ON",ON,False,True,True,2026-08-20,2026-08-21,True,True,False,True,False,False,False,
+EMP0348,Alberta (WFH),AB,True,True,True,2026-08-19,2026-08-21,True,True,True,True,True,False,True,2026-10-21
+EMP0349,Alberta (WFH),AB,True,True,True,2026-08-19,2026-08-21,True,True,True,True,True,False,True,2026-09-09
+EMP0350,Alberta (WFH),AB,True,True,True,2026-08-19,2026-08-21,True,True,True,True,True,False,True,2026-10-07
+EMP0351,"Victoria, BC",BC,False,True,True,2026-08-19,2026-08-21,True,True,True,True,True,False,True,2026-09-24
+EMP0352,Ontario (WFH),ON,True,True,True,2026-08-19,2026-08-21,True,True,True,True,True,False,False,
+EMP0353,Ontario (WFH),ON,True,True,True,2026-08-20,2026-08-21,True,True,True,True,True,False,True,2026-09-03
+EMP0354,Ontario (WFH),ON,True,True,True,2026-08-20,2026-08-21,True,True,True,True,True,True,True,2026-09-03
+EMP0355,Ontario (WFH),ON,True,True,True,2026-08-20,2026-08-21,True,True,True,True,False,False,True,2026-10-21
+EMP0356,Ontario (WFH),ON,True,True,True,2026-08-20,2026-08-21,True,True,False,True,True,False,True,2026-09-03
+EMP0357,"L'Assomption, QC",QC,False,True,True,2026-08-20,2026-08-21,True,True,True,True,True,False,True,2026-10-14
+EMP0358,Quebec (WFH),QC,True,True,True,2026-08-19,2026-08-21,True,True,False,True,True,True,True,2026-09-09
+EMP0359,Quebec (WFH),QC,True,True,True,2026-08-20,2026-08-21,True,True,True,True,True,True,False,
+EMP0360,Quebec (WFH),QC,True,True,True,2026-08-20,2026-08-21,True,True,True,True,True,True,True,2026-09-03
+EMP0361,Quebec (WFH),QC,True,True,True,2026-08-19,2026-08-21,True,True,True,True,True,True,True,2026-09-30
+EMP0362,Quebec (WFH),QC,True,True,True,2026-08-20,2026-08-21,True,True,False,True,True,True,False,
+EMP0363,Quebec (WFH),QC,True,True,True,2026-08-20,2026-08-21,True,True,True,True,True,True,True,2026-09-16
+EMP0364,"Brampton, ON",ON,False,True,True,2026-08-20,2026-08-26,True,True,True,True,False,False,True,2026-09-16
+EMP0365,"Brampton, ON",ON,False,True,True,2026-08-20,2026-08-26,True,True,True,True,False,False,True,2026-10-14
+EMP0366,"Brampton, ON",ON,False,True,True,2026-08-20,2026-08-26,True,True,True,True,False,False,True,2026-10-14
+EMP0367,"Brampton, ON",ON,False,True,True,2026-08-20,2026-08-26,True,True,True,True,False,False,True,2026-10-14
+EMP0368,"Brampton, ON",ON,False,True,True,2026-08-20,2026-08-26,True,True,True,True,False,True,True,2026-09-24
+EMP0369,"Brampton, ON",ON,False,True,True,2026-08-20,2026-08-26,True,True,True,True,False,False,False,
+EMP0370,"Brampton, ON",ON,False,True,True,2026-08-20,2026-08-26,True,True,True,True,False,False,True,2026-10-14
+EMP0371,"Brampton, ON",ON,False,True,True,2026-08-20,2026-08-26,True,True,True,True,False,False,False,
+EMP0372,"Brampton, ON",ON,False,True,True,2026-08-20,2026-08-26,True,True,True,True,False,False,True,2026-10-07
+EMP0373,"Calgary, AB",AB,False,True,True,2026-08-20,2026-08-26,True,True,True,True,False,False,True,2026-10-07
+EMP0374,"Calgary, AB",AB,False,True,True,2026-08-20,2026-08-26,True,True,True,True,False,False,True,2026-09-16
+EMP0375,"Calgary, AB",AB,False,True,True,2026-08-20,2026-08-26,True,True,True,True,False,False,False,
+EMP0376,"Calgary, AB",AB,False,True,True,2026-08-20,2026-08-26,True,True,True,True,False,False,True,2026-09-16
+EMP0377,"Calgary, AB",AB,False,True,True,2026-08-20,2026-08-26,True,True,True,True,False,False,True,2026-10-07
+EMP0378,"Calgary, AB",AB,False,True,True,2026-08-20,2026-08-26,True,True,True,True,False,False,False,
+EMP0379,Ontario (WFH),ON,True,True,True,2026-08-20,2026-08-26,True,True,True,True,True,False,False,
+EMP0380,Ontario (WFH),ON,True,True,True,2026-08-20,2026-08-26,True,True,True,True,True,True,True,2026-10-07
+EMP0381,Ontario (WFH),ON,True,True,True,2026-08-20,2026-08-26,True,True,True,True,True,True,True,2026-09-09
+EMP0382,"Richmond Field Op, BC",BC,False,False,True,2026-08-20,2026-08-26,True,True,True,True,False,False,True,2026-10-07
+EMP0383,"Weston, ON",ON,False,True,True,2026-08-20,2026-08-26,True,True,True,True,True,False,False,
+EMP0384,"Weston, ON",ON,False,True,True,2026-08-20,2026-08-26,True,True,True,True,True,True,True,2026-09-30
+EMP0385,"Weston, ON",ON,False,True,True,2026-08-20,2026-08-26,True,True,True,True,True,False,False,
+EMP0386,"Weston, ON",ON,False,True,True,2026-08-20,2026-08-26,True,True,True,True,True,True,True,2026-09-30
+EMP0387,"Weston, ON",ON,False,True,True,2026-08-20,2026-08-26,True,True,True,True,True,True,True,2026-09-30
+EMP0388,"Weston, ON",ON,False,True,True,2026-08-20,2026-08-26,True,True,True,True,True,False,False,
+EMP0389,"Weston, ON",ON,False,True,True,2026-08-20,2026-08-26,True,True,True,True,True,True,True,2026-09-16
+EMP0390,"Weston, ON",ON,False,True,True,2026-08-20,2026-08-26,True,True,True,True,True,True,True,2026-09-30
+EMP0391,"Weston, ON",ON,False,True,True,2026-08-20,2026-08-26,True,True,True,True,True,False,False,
+EMP0392,"Brampton, ON",ON,False,True,True,2026-08-20,2026-08-26,True,True,True,True,False,False,True,2026-09-30
+EMP0393,"Brampton, ON",ON,False,True,True,2026-08-20,2026-08-26,True,True,True,True,False,False,True,2026-10-07
+EMP0394,"Brampton, ON",ON,False,True,True,2026-08-20,2026-08-26,True,True,True,True,False,False,True,2026-10-14
+EMP0395,"Brampton, ON",ON,False,True,True,2026-08-20,2026-08-26,True,True,True,True,False,False,False,
+EMP0396,"Brampton, ON",ON,False,True,True,2026-08-20,2026-08-26,True,True,True,True,False,False,False,
+EMP0397,"Brampton, ON",ON,False,True,True,2026-08-20,2026-08-26,True,True,True,True,False,False,False,
+EMP0398,"Brampton, ON",ON,False,True,True,2026-08-20,2026-08-26,True,True,True,True,False,False,True,2026-10-14
+EMP0399,"Brampton, ON",ON,False,False,True,2026-08-20,2026-08-26,True,True,True,True,False,True,True,2026-09-16
+EMP0400,"CA Toronto-King St., ON",ON,False,False,True,2026-08-20,2026-08-26,True,True,True,True,False,False,False,
+EMP0401,"Richmond Field Op, BC",BC,False,False,True,2026-08-20,2026-08-26,True,True,True,True,False,False,True,2026-09-24
+EMP0402,"Richmond Field Op, BC",BC,False,False,True,2026-08-20,2026-08-26,True,True,True,True,False,False,True,2026-10-07
+EMP0403,"Richmond Field Op, BC",BC,False,False,True,2026-08-20,2026-08-26,True,True,True,True,False,False,True,2026-09-24
+EMP0404,"L'Assomption, QC",QC,False,True,True,2026-08-21,2026-08-26,True,True,True,True,True,True,True,2026-10-21
+EMP0405,Quebec (WFH),QC,True,True,True,2026-08-24,2026-08-26,True,True,True,True,True,True,True,2026-10-14
+EMP0406,Ontario (WFH),ON,True,True,True,2026-08-24,2026-08-26,True,True,True,True,True,True,True,2026-09-09
+EMP0407,Ontario (WFH),ON,True,True,True,2026-08-24,2026-08-26,True,True,True,True,True,False,False,
+EMP0408,Ontario (WFH),ON,True,True,True,2026-08-24,2026-08-26,True,True,True,True,True,False,False,
+EMP0409,Ontario (WFH),ON,True,True,True,2026-08-24,2026-08-26,True,True,True,True,True,True,True,2026-09-09
+EMP0410,Ontario (WFH),ON,True,True,True,2026-08-24,2026-08-26,True,True,True,True,True,False,False,
+EMP0411,Ontario (WFH),ON,True,True,True,2026-08-24,2026-08-28,True,True,True,True,True,False,False,
+EMP0412,Ontario (WFH),ON,True,True,True,2026-08-24,2026-08-28,True,True,True,True,True,False,False,
+EMP0413,Ontario (WFH),ON,True,True,True,2026-08-24,2026-08-28,True,True,True,True,True,False,True,2026-09-30
+EMP0414,Ontario (WFH),ON,True,True,True,2026-08-24,2026-08-28,True,True,True,True,True,True,True,2026-09-09
+EMP0415,Ontario (WFH),ON,True,True,True,2026-08-24,2026-08-28,True,True,True,True,True,True,True,2026-09-09
+EMP0416,Ontario (WFH),ON,True,True,True,2026-08-24,2026-08-28,True,True,True,True,True,True,True,2026-09-24
+EMP0417,Ontario (WFH),ON,True,True,True,2026-08-24,2026-08-28,True,True,True,True,True,True,True,2026-09-09
+EMP0418,Ontario (WFH),ON,True,True,True,2026-08-24,2026-08-28,True,True,True,True,True,True,True,2026-10-14
+EMP0419,Ontario (WFH),ON,True,True,True,2026-08-25,2026-08-28,True,True,True,True,True,False,False,
+EMP0420,"Saskatoon, SK",SK,False,True,True,2026-08-25,2026-08-28,True,True,True,True,True,False,True,2026-09-16
+EMP0421,Saskatchewan (WFH),SK,True,True,True,2026-08-25,2026-08-28,True,True,True,True,True,False,True,2026-09-24
+EMP0422,Quebec (WFH),QC,True,True,True,2026-08-25,2026-08-28,True,True,True,True,True,True,True,2026-09-30
+EMP0423,"Brampton, ON",ON,False,True,True,2026-08-25,2026-08-28,True,True,True,True,False,False,True,2026-10-14
+EMP0424,"Brampton, ON",ON,False,True,True,2026-08-25,2026-08-28,True,True,True,True,False,False,False,
+EMP0425,"Brampton, ON",ON,False,True,True,2026-08-25,2026-08-28,True,True,True,True,False,True,True,2026-09-09
+EMP0426,"Brampton, ON",ON,False,True,True,2026-08-25,2026-08-28,True,True,True,True,False,False,True,2026-10-07
+EMP0427,"Brampton, ON",ON,False,True,True,2026-08-25,2026-08-28,True,True,True,True,False,True,True,2026-09-09
+EMP0428,"Brampton, ON",ON,False,True,True,2026-08-25,2026-08-28,True,True,True,True,False,False,False,
+EMP0429,"Brampton, ON",ON,False,True,True,2026-08-25,2026-08-28,True,True,True,True,False,False,True,2026-09-03
+EMP0430,"Brampton, ON",ON,False,True,True,2026-08-25,2026-08-28,True,True,True,True,False,False,True,2026-10-21
+EMP0431,"Brampton, ON",ON,False,True,True,2026-08-25,2026-08-28,True,True,True,True,False,False,True,2026-10-07
+EMP0432,"Brampton, ON",ON,False,True,True,2026-08-25,2026-08-28,True,True,True,True,False,False,False,
+EMP0433,"Brampton, ON",ON,False,True,True,2026-08-25,2026-08-28,True,True,True,True,False,False,True,2026-10-21
+EMP0434,"Brampton, ON",ON,False,True,True,2026-08-25,2026-08-28,True,True,True,True,False,False,False,
+EMP0435,"Brampton, ON",ON,False,True,True,2026-08-25,2026-08-28,True,True,True,True,False,False,True,2026-09-30
+EMP0436,"Brampton, ON",ON,False,True,True,2026-08-25,2026-08-28,True,True,True,True,False,True,True,2026-09-09
+EMP0437,"Brampton, ON",ON,False,True,True,2026-08-25,2026-08-28,True,True,True,True,False,True,True,2026-09-24
+EMP0438,"Brampton, ON",ON,False,True,True,2026-08-25,2026-08-28,True,True,True,True,False,False,False,
+EMP0439,"Calgary, AB",AB,False,False,True,2026-08-28,2026-08-31,True,True,True,True,False,False,True,2026-10-07
+EMP0440,"Calgary, AB",AB,False,False,True,2026-08-28,2026-08-31,True,True,True,True,False,False,True,2026-09-24
+EMP0441,"Richmond Field Op, BC",BC,False,False,True,2026-08-28,2026-08-31,True,True,True,True,False,False,True,2026-10-07
+EMP0442,"Richmond Field Op, BC",BC,False,False,True,2026-08-28,2026-08-31,True,True,True,True,False,False,True,2026-09-24
+EMP0443,"CA Toronto-King St., ON",ON,False,True,True,2026-08-28,2026-08-31,True,True,True,True,False,False,False,
+EMP0444,"CA Toronto-King St., ON",ON,False,True,True,2026-08-28,2026-08-31,True,True,True,True,False,True,True,2026-09-16
+EMP0445,"CA Toronto-King St., ON",ON,False,True,True,2026-08-28,2026-08-31,True,True,True,True,False,True,True,2026-09-09
+EMP0446,Ontario (WFH),ON,True,True,True,2026-08-28,2026-08-31,True,True,True,True,True,False,False,
+EMP0447,Ontario (WFH),ON,True,True,True,2026-08-28,2026-08-31,True,True,True,True,True,False,False,
+EMP0448,Ontario (WFH),ON,True,True,True,2026-08-28,2026-08-31,True,True,True,True,True,True,True,2026-10-21
+EMP0449,Ontario (WFH),ON,True,True,True,2026-08-28,2026-08-31,True,True,True,True,True,False,False,
+EMP0450,Ontario (WFH),ON,True,True,True,2026-08-28,2026-08-31,True,True,True,True,True,False,False,
+EMP0451,Ontario (WFH),ON,True,True,True,2026-08-31,2026-09-02,True,True,True,True,True,True,True,2026-09-24
+EMP0452,Ontario (WFH),ON,True,True,True,2026-08-31,2026-09-02,True,True,True,True,True,True,True,2026-09-24
+EMP0453,"London, ON",ON,False,True,True,2026-08-31,2026-09-02,True,True,True,True,True,True,True,2026-10-14
+EMP0454,"St. John's, NL",NL,False,False,True,2026-09-01,2026-09-04,True,True,True,True,True,False,False,
+EMP0455,"St. John's, NL",NL,False,False,True,2026-09-01,2026-09-04,True,True,True,True,True,True,True,2026-09-30
+EMP0456,"St. John's, NL",NL,False,False,True,2026-09-01,2026-09-04,True,True,True,True,True,True,True,2026-10-21
+EMP0457,"Brampton, ON",ON,False,False,True,2026-09-01,2026-09-04,True,True,True,True,False,False,False,
+EMP0458,Ontario (WFH),ON,True,False,True,2026-09-01,2026-09-04,False,True,True,True,True,False,False,
+EMP0459,Ontario (WFH),ON,True,False,True,2026-09-01,2026-09-04,False,True,True,True,True,True,True,2026-10-21
+EMP0460,"CA Toronto-King St., ON",ON,False,False,True,2026-09-01,2026-09-04,True,True,False,True,False,True,True,2026-09-16
+EMP0461,"Richmond Field Op, BC",BC,False,True,True,2026-09-09,2026-09-08,True,True,True,False,False,False,False,
+EMP0462,"Richmond Field Op, BC",BC,False,True,True,2026-09-09,2026-09-08,True,True,True,False,False,False,True,2026-09-24
+EMP0463,"Weston, ON",ON,False,True,True,2026-09-09,2026-09-10,True,True,True,False,False,False,False,
+EMP0464,"Weston, ON",ON,False,True,True,2026-09-09,2026-09-10,True,True,True,False,False,True,True,2026-10-21
+EMP0465,"Weston, ON",ON,False,True,True,2026-09-09,2026-09-10,True,True,True,False,False,False,False,
+EMP0466,"Weston, ON",ON,False,True,True,2026-09-09,2026-09-11,True,True,True,True,True,False,False,
+EMP0467,"Weston, ON",ON,False,True,True,2026-09-09,2026-09-11,False,True,True,True,True,False,True,2026-10-07
+EMP0468,"Richmond Field Op, BC",BC,False,True,True,2026-09-09,2026-09-11,True,True,True,True,False,False,True,2026-10-14
+EMP0469,"Richmond Field Op, BC",BC,False,True,True,2026-09-09,2026-09-11,True,True,True,True,False,False,False,
+EMP0470,"Richmond Prod, BC",BC,False,True,True,2026-09-09,2026-09-11,True,True,True,True,False,False,True,2026-10-07
+EMP0471,"Richmond Prod, BC",BC,False,True,True,2026-09-09,2026-09-11,True,True,True,True,False,False,True,2026-10-07
+EMP0472,"Richmond Prod, BC",BC,False,True,True,2026-09-09,2026-09-11,True,True,True,True,False,False,False,
+EMP0473,"Brampton, ON",ON,False,True,True,2026-09-09,2026-09-11,True,True,True,True,False,False,True,2026-10-07
+EMP0474,"Brampton, ON",ON,False,True,True,2026-09-09,2026-09-11,True,True,True,True,False,False,False,
+EMP0475,"Brampton, ON",ON,False,True,True,2026-09-09,2026-09-11,True,True,False,True,False,True,True,2026-09-16
+EMP0476,"Brampton, ON",ON,False,True,True,2026-09-09,2026-09-11,True,True,True,True,False,True,True,2026-09-24
+EMP0477,"Brampton, ON",ON,False,True,True,2026-09-09,2026-09-11,True,True,True,True,False,True,True,2026-09-24
+EMP0478,"Brampton, ON",ON,False,True,True,2026-09-09,2026-09-11,True,True,True,True,False,True,True,2026-09-24
+EMP0479,"Brampton, ON",ON,False,True,True,2026-09-09,2026-09-11,True,True,True,True,False,False,True,2026-10-14
+EMP0480,"Brampton, ON",ON,False,True,True,2026-09-09,2026-09-11,True,True,True,True,False,True,True,2026-09-24
+EMP0481,"Brampton, ON",ON,False,True,True,2026-09-09,2026-09-11,True,True,True,True,False,False,True,2026-10-07
+EMP0482,"Brampton, ON",ON,False,True,True,2026-09-09,2026-09-11,True,True,True,True,False,False,False,
+EMP0483,"Brampton, ON",ON,False,True,True,2026-09-10,2026-09-11,True,True,True,True,False,False,True,2026-10-07
+EMP0484,"Brampton, ON",ON,False,True,True,2026-09-10,2026-09-11,True,True,True,True,False,False,True,2026-10-14
+EMP0485,"Owen Sound, ON",ON,False,True,True,2026-09-10,2026-09-11,True,True,True,True,True,True,True,2026-10-14
+EMP0486,Ontario (WFH),ON,True,True,True,2026-09-10,2026-09-11,True,True,True,True,True,True,True,2026-10-07
+EMP0487,"Brampton, ON",ON,False,True,True,2026-09-11,2026-09-11,False,True,True,True,True,False,False,
+EMP0488,"Brampton, ON",ON,False,True,True,2026-09-15,2026-09-18,True,True,True,True,False,False,True,2026-10-07
+EMP0489,"Brampton, ON",ON,False,True,True,2026-09-15,2026-09-18,True,True,True,True,False,True,True,2026-09-24
+EMP0490,"Brampton, ON",ON,False,True,True,2026-09-15,2026-09-18,True,True,True,True,False,False,False,
+EMP0491,"Brampton, ON",ON,False,True,True,2026-09-15,2026-09-18,True,True,True,True,False,True,True,2026-09-30
+EMP0492,"Brampton, ON",ON,False,True,True,2026-09-15,2026-09-18,True,True,True,True,False,False,True,2026-10-21
+EMP0493,"Brampton, ON",ON,False,True,True,2026-09-15,2026-09-18,True,True,True,True,False,False,True,2026-09-30
+EMP0494,"Brampton, ON",ON,False,True,True,2026-09-15,2026-09-18,True,True,True,True,False,False,True,2026-10-21
+EMP0495,"Brampton, ON",ON,False,True,True,2026-09-15,2026-09-18,True,True,True,True,False,True,True,2026-09-30
+EMP0496,"Richmond Prod, BC",BC,False,True,True,2026-09-15,2026-09-18,True,True,True,True,False,False,True,2026-10-14
+EMP0497,"CA Toronto-King St., ON",ON,False,True,True,2026-09-15,2026-09-18,True,True,True,True,False,True,True,2026-10-21
+EMP0498,"Calgary, AB",AB,False,True,True,2026-09-15,2026-09-18,True,True,True,True,False,False,False,
+EMP0499,"CA Toronto-King St., ON",ON,False,True,True,2026-09-15,2026-09-18,True,True,True,True,False,False,True,2026-10-07
+EMP0500,Ontario (WFH),ON,True,True,True,2026-09-17,2026-09-18,True,True,True,True,True,False,False,
+EMP0501,"Brampton, ON",ON,False,True,True,2026-09-17,2026-09-18,True,True,True,True,False,True,True,2026-09-24
+EMP0502,"CA Toronto-King St., ON",ON,False,False,True,2026-09-23,,True,True,True,True,False,False,False,
+EMP0503,"Brampton, ON",ON,False,False,False,,,False,False,False,False,False,False,False,
+EMP0504,British Columbia (WFH),BC,True,True,True,2026-06-26,2026-07-03,True,True,True,True,True,False,False,
+EMP0505,Nova Scotia (WFH),NS,True,False,False,,,False,False,False,False,False,False,False,
+EMP0506,Ontario (WFH),ON,True,False,False,,,False,False,False,False,False,False,False,
+EMP0507,Ontario (WFH),ON,True,False,False,,,False,False,False,False,False,False,False,
+EMP0508,"Brampton, ON",ON,False,True,False,,,False,False,False,False,False,False,False,
+EMP0509,Ontario (WFH),ON,True,False,False,,,False,False,False,False,False,False,False,
+EMP0510,Ontario (WFH),ON,True,False,False,,,False,False,False,False,False,False,False,
+EMP0511,Ontario (WFH),ON,True,True,True,2026-10-20,2026-10-20,True,True,True,False,False,False,False,
+EMP0512,Ontario (WFH),ON,True,True,False,,,False,False,False,False,False,False,False,
+EMP0513,"Calgary, AB",AB,False,False,False,,,False,False,False,False,False,False,False,
+EMP0514,"Calgary, AB",AB,False,False,False,,,False,False,False,False,False,False,False,
+EMP0515,"CA Toronto-King St., ON",ON,False,False,False,,,False,False,False,False,False,False,False,
+EMP0516,"CA Toronto-King St., ON",ON,False,False,False,,,False,False,False,False,False,False,False,
+EMP0517,"CA Toronto-King St., ON",ON,False,False,False,,,False,False,False,False,False,False,False,
+EMP0518,"CA Toronto-King St., ON",ON,False,False,False,,,False,False,False,False,False,False,False,

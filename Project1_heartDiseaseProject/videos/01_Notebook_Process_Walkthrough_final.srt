@@ -1,0 +1,417 @@
+1
+00:00:00,500 --> 00:00:01,122
+Welcome.
+
+2
+00:00:01,122 --> 00:00:06,021
+This is part one of the heart disease patient analysis
+project.
+
+3
+00:00:06,021 --> 00:00:14,032
+In this video we walk through the Python notebook, step by
+step: what was done, why, and what we found.
+
+4
+00:00:15,432 --> 00:00:16,929
+Here is the scenario.
+
+5
+00:00:16,929 --> 00:00:23,842
+A hospital cardiology department has records for 303
+patients who were checked for heart disease.
+
+6
+00:00:23,842 --> 00:00:29,472
+Management wants to improve screening, triage, and the use
+of diagnostic tests.
+
+7
+00:00:29,472 --> 00:00:38,452
+The notebook answers ten business problems, listed on the
+right, and its outputs feed a Power BI dashboard and a
+presentation.
+
+8
+00:00:39,852 --> 00:00:41,690
+This is the process flow.
+
+9
+00:00:41,690 --> 00:00:45,217
+First we set up the tools and load the raw file.
+
+10
+00:00:45,217 --> 00:00:49,407
+Then we check the data, clean it, and create new columns.
+
+11
+00:00:49,407 --> 00:00:52,714
+Next we analyse business problems two to ten.
+
+12
+00:00:52,714 --> 00:00:57,785
+Finally we export four files for Power BI and summarise the
+findings.
+
+13
+00:00:57,785 --> 00:01:02,563
+The bar at the top of each scene shows where we are in this
+flow.
+
+14
+00:01:03,963 --> 00:01:05,440
+Step one is setup.
+
+15
+00:01:05,440 --> 00:01:13,483
+We import pandas for tables, Matplotlib and Seaborn for
+charts, and SciPy for one statistics test.
+
+16
+00:01:13,483 --> 00:01:15,946
+Then we read the raw CSV file.
+
+17
+00:01:15,946 --> 00:01:23,004
+It has 303 rows and 14 columns: thirteen clinical
+measurements plus the target column.
+
+18
+00:01:23,004 --> 00:01:26,534
+We look at it with head, info and describe.
+
+19
+00:01:27,934 --> 00:01:32,634
+Step two answers business problem one: can we trust the
+data?
+
+20
+00:01:32,634 --> 00:01:36,024
+We check for missing values: there are none.
+
+21
+00:01:36,024 --> 00:01:38,412
+We find one duplicated patient.
+
+22
+00:01:38,412 --> 00:01:45,116
+And six cells hold codes outside the valid range: ca equals
+four, and thal equals zero.
+
+23
+00:01:45,116 --> 00:01:51,819
+Later we also count twenty outliers, which we keep because
+they are medically possible.
+
+24
+00:01:53,219 --> 00:01:55,763
+Next comes the most important finding.
+
+25
+00:01:55,763 --> 00:02:01,589
+We counted every code in our file and compared it with the
+original UCI Cleveland file.
+
+26
+00:02:01,589 --> 00:02:06,945
+The counts match within one patient, which tells us what
+each code really means.
+
+27
+00:02:06,945 --> 00:02:13,373
+And it shows that target equals one means no heart disease,
+the opposite of the data dictionary.
+
+28
+00:02:13,373 --> 00:02:20,203
+Read the old way, women would have three times the disease
+rate of men, which is clinically backwards.
+
+29
+00:02:20,203 --> 00:02:22,278
+So the label must be corrected.
+
+30
+00:02:23,678 --> 00:02:27,437
+Step three cleans the data in five simple moves.
+
+31
+00:02:27,437 --> 00:02:30,648
+Drop the duplicate, leaving 302 patients.
+
+32
+00:02:30,648 --> 00:02:35,425
+Turn the invalid codes into missing values, shown as
+unknown.
+
+33
+00:02:35,425 --> 00:02:40,751
+Create the corrected outcome: heart disease equals one minus
+target.
+
+34
+00:02:40,751 --> 00:02:43,962
+Replace every code with a readable label.
+
+35
+00:02:43,962 --> 00:02:47,094
+And rename the columns to plain English.
+
+36
+00:02:48,494 --> 00:02:53,214
+We also look for outliers with box plots and the I Q R rule.
+
+37
+00:02:53,214 --> 00:02:57,933
+Twenty values are flagged, for example a cholesterol of 564.
+
+38
+00:02:57,933 --> 00:03:04,226
+All are medically possible, so we keep them and flag them
+for the clinical team.
+
+39
+00:03:05,626 --> 00:03:07,774
+Step four creates new columns.
+
+40
+00:03:07,774 --> 00:03:22,309
+With pandas cut, we group raw numbers into meaningful bands:
+ten-year age groups, American Heart Association blood
+pressure stages, cholesterol bands, and bands for maximum
+heart rate and S T depression.
+
+41
+00:03:22,309 --> 00:03:24,887
+Bands make every chart easy to read.
+
+42
+00:03:26,287 --> 00:03:27,836
+Now the analysis.
+
+43
+00:03:27,836 --> 00:03:31,934
+Business problem two: how big is the problem?
+
+44
+00:03:31,934 --> 00:03:35,486
+138 of 302 patients have heart disease.
+
+45
+00:03:35,486 --> 00:03:38,947
+That is 46 percent, almost one in two.
+
+46
+00:03:38,947 --> 00:03:43,319
+The typical patient is a man in his mid fifties.
+
+47
+00:03:43,319 --> 00:03:48,328
+We use 46 percent as the baseline for every comparison.
+
+48
+00:03:49,728 --> 00:03:51,217
+Problem three: age.
+
+49
+00:03:51,217 --> 00:03:58,192
+The disease rate climbs from 27 percent under forty to 60
+percent at sixty to sixty nine.
+
+50
+00:03:58,192 --> 00:04:02,346
+Patients with disease are six years older on average.
+
+51
+00:04:02,346 --> 00:04:06,500
+Recommendation: start routine screening at age fifty.
+
+52
+00:04:07,900 --> 00:04:09,373
+Problem four: sex.
+
+53
+00:04:09,373 --> 00:04:19,111
+Men are more than twice as likely to have heart disease, 55
+percent against 25 percent, and the gap holds at every age.
+
+54
+00:04:19,111 --> 00:04:25,167
+Recommendation: screen men from forty to forty five, and
+women from fifty.
+
+55
+00:04:26,567 --> 00:04:29,377
+Problem five is the most surprising.
+
+56
+00:04:29,377 --> 00:04:34,764
+Patients with no chest pain have the highest rate of all, 73
+percent.
+
+57
+00:04:34,764 --> 00:04:38,043
+Classic typical angina is only 30 percent.
+
+58
+00:04:38,043 --> 00:04:42,727
+So a rule of chest pain equals urgent would miss most cases.
+
+59
+00:04:42,727 --> 00:04:46,162
+Silent presentations should be fast-tracked.
+
+60
+00:04:47,562 --> 00:04:49,504
+Problem six: routine checks.
+
+61
+00:04:49,504 --> 00:04:58,657
+Blood pressure, cholesterol and fasting blood sugar barely
+separate patients, and the differences are not statistically
+significant.
+
+62
+00:04:58,657 --> 00:05:03,719
+Keep them for prevention, but don't use them to decide who
+gets referred.
+
+63
+00:05:05,119 --> 00:05:08,332
+Problem seven: the exercise stress test.
+
+64
+00:05:08,332 --> 00:05:11,464
+All four measures show strong patterns.
+
+65
+00:05:11,464 --> 00:05:19,014
+Severe S T depression means 86 percent disease, and a low
+maximum heart rate means 79 percent.
+
+66
+00:05:19,014 --> 00:05:24,235
+The stress test is the best value mid-cost test, so use it
+early.
+
+67
+00:05:25,635 --> 00:05:27,446
+Problem eight: imaging.
+
+68
+00:05:27,446 --> 00:05:36,661
+Each extra narrowed vessel raises the rate, from 26 to 85
+percent, and a reversible thallium defect means 76 percent.
+
+69
+00:05:36,661 --> 00:05:43,906
+Imaging is expensive, so use it for patients already flagged
+by symptoms or the stress test.
+
+70
+00:05:45,306 --> 00:05:48,806
+Problem nine ranks every factor on one scale.
+
+71
+00:05:48,806 --> 00:05:55,340
+A chi-square test gives Cramer's V, from zero for no link to
+one for a perfect link.
+
+72
+00:05:55,340 --> 00:06:01,952
+Thallium scan, chest-pain type and narrowed vessels come
+first, then the stress test.
+
+73
+00:06:01,952 --> 00:06:03,896
+Routine checks come last.
+
+74
+00:06:03,896 --> 00:06:09,652
+So the budget order is: symptoms, then stress test, then
+targeted imaging.
+
+75
+00:06:11,052 --> 00:06:13,387
+Problem ten builds risk tiers.
+
+76
+00:06:13,387 --> 00:06:17,903
+Each patient gets one point for each of six warning signs.
+
+77
+00:06:17,903 --> 00:06:22,885
+Low is zero or one sign, medium two or three, high four or
+more.
+
+78
+00:06:22,885 --> 00:06:30,903
+The high tier has 93 percent disease, and holds 62 percent
+of all cases in just 30 percent of patients.
+
+79
+00:06:30,903 --> 00:06:34,562
+That is a powerful way to prioritise follow-up.
+
+80
+00:06:35,962 --> 00:06:40,520
+Step six exports four CSV files to the processed data
+folder.
+
+81
+00:06:40,520 --> 00:06:47,320
+The clean patient table, the factor ranking, the data
+quality log, and the data dictionary.
+
+82
+00:06:47,320 --> 00:06:53,298
+We also add sort-order columns, so Power BI shows the groups
+in a logical order.
+
+83
+00:06:53,298 --> 00:06:57,333
+These four files are exactly what the dashboard reads.
+
+84
+00:06:58,733 --> 00:07:01,595
+To summarise, five recommendations.
+
+85
+00:07:01,595 --> 00:07:03,148
+Fix the data first.
+
+86
+00:07:03,148 --> 00:07:06,336
+Screen from age fifty, and men earlier.
+
+87
+00:07:06,336 --> 00:07:09,525
+Fast-track patients with no chest pain.
+
+88
+00:07:09,525 --> 00:07:15,248
+Test in the right order: symptoms, stress test, then
+targeted imaging.
+
+89
+00:07:15,248 --> 00:07:18,355
+And prioritise follow-up by risk tier.
+
+90
+00:07:18,355 --> 00:07:28,983
+Remember the limitations: a small sample from one hospital,
+links rather than causes, and tiers that need testing on new
+patients.
+
+91
+00:07:30,383 --> 00:07:32,474
+That completes the notebook.
+
+92
+00:07:32,474 --> 00:07:38,973
+In part two, we will see how these four files become an
+interactive Power BI dashboard.
+
+93
+00:07:38,973 --> 00:07:40,691
+Thank you for watching.

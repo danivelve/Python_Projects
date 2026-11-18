@@ -1,0 +1,31 @@
+table data_dictionary
+	lineageTag: 690fe07d-0c07-4b65-bb1b-26c5e9979960
+
+	column column
+		dataType: string
+		lineageTag: 9db27352-113f-4ba2-9730-cabcaf65c6c0
+		summarizeBy: none
+		sourceColumn: column
+
+		annotation SummarizationSetBy = Automatic
+
+	column description
+		dataType: string
+		lineageTag: 30649706-277b-472d-9f77-d41cf06509e7
+		summarizeBy: none
+		sourceColumn: description
+
+		annotation SummarizationSetBy = Automatic
+
+	partition data_dictionary = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "data_dictionary.csv"), [Delimiter = ",", Columns = 2, Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"column", type text}, {"description", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

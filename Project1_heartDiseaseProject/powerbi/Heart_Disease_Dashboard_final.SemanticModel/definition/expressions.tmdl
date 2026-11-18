@@ -1,0 +1,6 @@
+/// Folder that holds the processed CSV files. Change it after cloning the repository.
+expression DataFolder = "D:\Env't\Video_Tution\Udemy\Data_Analysis\Python_Projects\Project1_heartDiseaseProject\data\processed\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: db068bcf-c7fa-48f3-954f-603386000073
+
+	annotation PBI_ResultType = Text
+

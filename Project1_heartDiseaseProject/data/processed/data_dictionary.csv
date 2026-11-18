@@ -1,0 +1,28 @@
+column,description
+patient_id,Unique patient key
+age,Age in years
+age_group,10-year age band
+sex,Male / Female
+chest_pain_type,"Typical angina, Atypical angina, Non-anginal pain, Asymptomatic"
+resting_bp,Resting blood pressure (mm Hg)
+bp_category,AHA blood pressure stage
+cholesterol,Serum cholesterol (mg/dl)
+cholesterol_category,NCEP cholesterol band
+high_fasting_sugar,Fasting blood sugar > 120 mg/dl (Yes/No)
+resting_ecg,Resting ECG result
+max_heart_rate,Maximum heart rate in stress test (bpm)
+max_hr_band,Max heart rate band
+exercise_angina,Chest pain during exercise (Yes/No)
+st_depression,ST depression on exercise ECG
+st_depression_band,ST depression severity band
+st_slope,Slope of peak exercise ST segment
+vessels_blocked,"Major vessels narrowed on fluoroscopy (0-3, blank = unknown)"
+vessels_label,"Vessels as text, incl. Unknown"
+thallium_result,Thallium scan result
+sign_*,1 if the warning sign is present (see Problem 10)
+warning_signs,Number of warning signs (0-6)
+risk_tier,"Low (0-1), Medium (2-3), High (4-6)"
+heart_disease,"1 = heart disease, 0 = none (corrected)"
+diagnosis,Heart disease / No heart disease
+original_target,Original label from the raw file (1 = no disease)
+*_order,Sort-order number for the matching text column (use 'Sort by column' in Power BI)

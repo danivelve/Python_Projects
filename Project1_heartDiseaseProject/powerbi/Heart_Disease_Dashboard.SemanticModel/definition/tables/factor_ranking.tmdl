@@ -1,0 +1,75 @@
+table factor_ranking
+	lineageTag: e9f978e0-70e8-44b0-bf47-0afae8ad3dde
+
+	column rank
+		dataType: int64
+		formatString: 0
+		lineageTag: eca636e0-1e15-436d-b491-8007a85b40b1
+		summarizeBy: none
+		sourceColumn: rank
+
+		annotation SummarizationSetBy = Automatic
+
+	column factor
+		dataType: string
+		lineageTag: 75df939a-374c-4d2a-bd25-01d1710537b6
+		summarizeBy: none
+		sourceColumn: factor
+		sortByColumn: rank
+
+		annotation SummarizationSetBy = Automatic
+
+	column test_type
+		dataType: string
+		lineageTag: cd87d3b0-68a5-4ddd-8c00-7321eb41879f
+		summarizeBy: none
+		sourceColumn: test_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column cramers_v
+		dataType: double
+		formatString: 0.00
+		lineageTag: d503da5d-8b10-462a-a65e-285aaca7367f
+		summarizeBy: sum
+		sourceColumn: cramers_v
+
+		annotation SummarizationSetBy = Automatic
+
+	column rate_gap_pts
+		dataType: double
+		formatString: 0.00
+		lineageTag: b1285302-cc8b-4ee4-9ace-ff4174875825
+		summarizeBy: sum
+		sourceColumn: rate_gap_pts
+
+		annotation SummarizationSetBy = Automatic
+
+	column p_value
+		dataType: double
+		lineageTag: 266cb250-d5f0-49eb-ae7d-572b4b20873f
+		summarizeBy: none
+		sourceColumn: p_value
+
+		annotation SummarizationSetBy = Automatic
+
+	column significant
+		dataType: string
+		lineageTag: c59a165b-51cf-48f7-8998-ae30ab05addf
+		summarizeBy: none
+		sourceColumn: significant
+
+		annotation SummarizationSetBy = Automatic
+
+	partition factor_ranking = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "factor_ranking.csv"), [Delimiter = ",", Columns = 7, Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"rank", Int64.Type}, {"factor", type text}, {"test_type", type text}, {"cramers_v", type number}, {"rate_gap_pts", type number}, {"p_value", type number}, {"significant", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

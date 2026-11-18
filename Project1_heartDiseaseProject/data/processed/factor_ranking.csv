@@ -1,0 +1,14 @@
+rank,factor,test_type,cramers_v,rate_gap_pts,p_value,significant
+1,Thallium scan,Imaging,0.53,54.3,4.251403205561942e-19,Yes
+2,Chest-pain type,Symptoms,0.52,54.7,1.8926838351935918e-17,Yes
+3,Vessels narrowed,Imaging,0.49,59.3,1.01008763718801e-15,Yes
+4,Exercise angina,Stress test,0.43,46.3,9.556466486179139e-14,Yes
+5,ST depression,Stress test,0.42,60.5,2.4863896022507923e-11,Yes
+6,Max heart rate,Stress test,0.39,54.8,5.310594267434614e-10,Yes
+7,ST slope,Stress test,0.39,40.2,6.5777827609179e-11,Yes
+8,Sex,Demographics,0.28,30.3,1.5508552054949547e-06,Yes
+9,Age group,Demographics,0.23,33.3,0.0032494592621649756,Yes
+10,Resting ECG,Routine check,0.18,16.6,0.007713053269318978,Yes
+11,Blood pressure,Routine check,0.14,16.3,0.11670518288191635,No
+12,Cholesterol,Routine check,0.11,11.2,0.16688595655983995,No
+13,Fasting blood sugar,Routine check,0.02,3.8,0.7611374700928197,No
