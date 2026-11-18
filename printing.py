@@ -1,0 +1,1 @@
+print("hello " + input("Whats your name "))
